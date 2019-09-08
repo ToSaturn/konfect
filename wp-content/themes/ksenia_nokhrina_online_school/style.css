@@ -599,6 +599,7 @@ a.active, button.active {
 	margin: 0 19px;
 	color: #ffffff;
 	font-size: 22px;
+	text-transform: uppercase;
 }
 .lesson_row .lesson p,
 .lesson_row .lesson .duration{
