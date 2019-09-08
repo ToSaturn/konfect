@@ -1,0 +1,133 @@
+# Copyright (C) 2019 lifterlms-mailchimp
+# This file is distributed under the same license as the lifterlms-mailchimp package.
+msgid ""
+msgstr ""
+"Project-Id-Version: lifterlms-mailchimp\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: LifterLMS <help@lifterlms.com>\n"
+"Last-Translator: Thomas Patrick Levy <thomas@lifterlms.com>\n"
+"Report-Msgid-Bugs-To: https://lifterlms.com/my-account/my-tickets\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/class-llms-integration-mailchimp.php:21, includes/class-llms-mc-privacy.php:19
+msgid "LifterLMS MailChimp"
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:22
+msgid "Automatically add your LifterLMS students and members to MailChimp lists and groups during enrollment and registration."
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:58
+msgid "API Key"
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:59
+msgid "Your MailChimp API key. Click %shere%s for help creating a new key."
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:71
+msgid "Integrate with WooCommerce"
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:72
+msgid "When enabled, consenting WooCommerce customers will be added to the Default List and added to course and membership lists during enrollment via products."
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:74
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:81
+msgid "Subscriber Consent Message"
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:82
+msgid "Customize the consent message displayed during enrollment and registrations."
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:89
+msgid "Unsubscribe Message"
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:90
+msgid "Customize the message displayed on the student dashboard where students can opt out of their MailChimp email subscriptions."
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:97, includes/class-llms-integration-mailchimp.php:112
+msgid "None"
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:101
+msgid "Default List"
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:102
+msgid "During account registration, add consenting subscribers to this list in MailChimp."
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:115
+msgid "Default Group"
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:116
+msgid "During account registration, add consenting subscribers to this group in MailChimp."
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:125
+msgid "Clear Local Cache"
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:125
+msgid "Clears locally cached MailChimp list and group data and retrieves an updated set of lists from MailChimp"
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:131
+msgid "When enabled, students will be subscribed as \"pending\" and must confirm their email address before being subscribed to lists."
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:133
+msgid "Confirmation Emails"
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:141
+msgid "Debugging information is logged to \"%s\""
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:155
+msgid "I would like to receive information about the courses and memberships I've enrolled in on this site."
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:251
+msgid "Unsubscribe me from newsletter emails about the courses and memberships I've enrolled in on this site."
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:440, includes/class-llms-integration-mailchimp.php:449
+msgid "LifterLMS MailChimp Error: %s"
+msgstr ""
+
+#: includes/class-llms-integration-mailchimp.php:447
+msgid "An unknown response was recieved from MailChimp. Please check your API key and try again."
+msgstr ""
+
+#: includes/class-llms-mc-api.php:59
+msgid "There was a problem connecting to the MailChimp API. Please check your API key and try again."
+msgstr ""
+
+#: includes/class-llms-mc-api.php:66
+msgid "Empty Response."
+msgstr ""
+
+#: includes/class-llms-mc-privacy.php:33
+msgid "This sample language includes the basics around what personal data your site shares with MailChimp. We recommend consulting with a lawyer when deciding what information to disclose on your privacy policy."
+msgstr ""
+
+#: includes/class-llms-mc-privacy.php:36
+msgid "When consenting to receive information about courses and memberships which you are enrolled in, your email address, first name, and last name will be added to MailChimp, our email marketing service provider. For more information, please refer to <a href=\"https://mailchimp.com/legal/privacy/\">MailChimp's Privacy Policy</a>."
+msgstr ""

@@ -1,0 +1,39 @@
+{
+    "autoload": {
+        "psr-4": {
+          "LaunchPad\\": "app/"
+        }
+    },
+    "name": "lifterlms-launchpad",
+    "description": "A Framework for building kick ass themes with LifterLMS",
+    "keywords": [
+        "wordpress",
+        "wordpress-theme",
+        "theme-framework",
+        "Wordpress LMS",
+        "lifterlms",
+        "gulp",
+        "bower",
+        "sass",
+        "browsersync",
+        "composer"
+    ],
+    "homepage": "http://launchpadtheme.io",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+          "name": "Mark Nelson",
+          "email": "mark@gocodebox.com",
+          "homepage": "http://gocodebox.com"
+        },
+        {
+          "name": "Thomas Levy",
+          "email": "thomas@gocodebox.com",
+          "homepage": "http://gocodebox.com"
+        }
+    ],
+    "require": {
+      "gocodebox/launchpad-framework": "dev-master#ff6ed8382f112deab8b71573ede25afbda72d7ca"
+    },
+    "type": "library"
+}

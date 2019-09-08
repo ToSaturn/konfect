@@ -1,0 +1,21 @@
+main.account {
+	padding: 11.4% 10.8% 0;
+	margin-top: -170px;
+	margin-bottom: 140px;
+	height: 100%;
+}
+.account h1 {
+	margin: 50px 0;
+	text-transform: uppercase;
+	text-align: center;
+	color: #f88d02;
+	font-size: 50px;
+	font-weight: 500;
+}
+.account .widget_custom_html:last-child .button {
+	margin-bottom: 0;	
+}
+.account .button {
+	font-size: 23px;
+	margin-bottom: 37px;	
+}

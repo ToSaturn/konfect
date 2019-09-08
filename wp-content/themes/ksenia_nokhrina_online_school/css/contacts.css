@@ -1,0 +1,115 @@
+.contacts {
+	height: 100vh;
+	margin-top: -170px;
+	padding-top: 11.4%;
+	background: url(../img/contacts_bg.png) no-repeat top;
+}
+.contacts h1 {
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: #f88d02;
+	font-size: 50px;
+}
+.contact_wrap {
+	max-width: 1128px;
+	margin: 44px auto 148px;
+	padding: 31px 29px;
+	border: 1px solid #ffffff;
+}
+.contact_block {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.contact_block > div {
+	width: 50%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	text-align: right;
+	
+}
+.contact_block > div:first-child {
+	padding: 0 59px;
+	background-color: #24242e;
+	opacity: 0.68;
+	color: #fff;
+}
+.contact_block > div:last-child {
+	background-color: #ffffff;
+	opacity: 0.93;
+}
+.contact_block p {
+	margin-top: 112px;
+	font-size: 21px;
+	font-style: italic;
+}
+span.email, span.phone {
+	display: inline-block;
+	margin-bottom: 31px;
+	font-size: 18px;
+}
+span.email:after, span.phone:after, span.inst:after {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 25px;
+}
+span.email:after {
+	width: 32px;
+	height: 23px;
+	background: url(../img/мейл.svg) no-repeat center;
+}
+span.phone:after {
+	width: 33px;
+	height: 33px;
+	background: url(../img/телефон.svg) no-repeat center;
+}
+span.inst:after {
+	width: 33px;
+	height: 33px;
+	background: url(../img/инстаграм.svg) no-repeat center;
+}
+span.inst {
+	font-size: 18px;
+	margin-bottom: 111px;
+}
+.contact_block > div form {
+	padding: 56px 50px;
+}
+.contact_block > div form input {
+	padding: 9px;
+	margin-bottom: 40px;
+	color: #434343;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 300;
+	font-style: italic;
+	border: none;
+	border-bottom: 1px solid #24242e;;
+}
+.contact_block > div form .button {
+	width: 100%;
+	color: #000000;
+	font-size: 20px;
+	text-transform: uppercase;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	border: 1px solid transparent;
+	border-radius: 34px;
+	background-color: #f88d02;
+}
+.contact_block > div form .button:hover {
+	color: #f88d02;
+	background-color: #000;
+	border: 1px solid #f88d02;
+}

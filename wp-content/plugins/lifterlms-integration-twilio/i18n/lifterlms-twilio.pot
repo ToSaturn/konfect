@@ -1,0 +1,282 @@
+# Copyright (C) 2018 lifterlms-integration-twilio
+# This file is distributed under the same license as the lifterlms-integration-twilio package.
+msgid ""
+msgstr ""
+"Project-Id-Version: lifterlms-integration-twilio\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: LifterLMS <help@lifterlms.com>\n"
+"Last-Translator: Thomas Patrick Levy <thomas@lifterlms.com>\n"
+"Report-Msgid-Bugs-To: https://lifterlms.com/my-account/my-tickets\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lifterlms-integration-twilio.php:82
+msgid "LifterLMS Twilio requires LifterLMS version %s or later. Please upgrade LifterLMS to the latest version in order to start using LifterLMS Twilio."
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:22
+msgid "Twilio"
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:23
+msgid "Use Twilio to send automatic notifications via text messaging (SMS), create custom SMS engagements, and allow students to enroll in courses and memberships by SMS."
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:26
+msgid "Check out the getting started guide and documentation %1$shere%2$s."
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:76, includes/class-llms-integration-twilio.php:287
+msgid "Error encountered when connecting with Twilio: \"%s\""
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:94
+msgid "Your Twilio Account SID. Find out how %1$shere%2$s."
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:98
+msgid "Account SID"
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:102
+msgid "Your Twilio Auth Token. Find out how %1$shere%2$s."
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:106
+msgid "Authkey"
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:112
+msgid "The phone number used for sending SMS engagements and SMS notifications."
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:115
+msgid "From Number"
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:120
+msgid "I didn't understand that, please try again. If you're trying to get in touch with a human, send an email instead."
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:121
+msgid "This message is automatically sent in response to incoming messages when someone sends an invalid text to enroll command or responds to any SMS engagement or notification message."
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:124
+msgid "Default Auto-Reply"
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:234
+msgid "Twilio Text to Enroll"
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:236
+msgid "Enable Text to Enroll"
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:242
+msgid "Enroll Command Text"
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:243
+msgid "ENROLL"
+msgstr ""
+
+#: includes/class-llms-integration-twilio.php:247
+msgid "To Number"
+msgstr ""
+
+#: includes/class-llms-twilio-account-fields.php:53
+msgid "It's okay to send me occassional text messages on this number."
+msgstr ""
+
+#: includes/class-llms-twilio-account-fields.php:133
+msgid "\"%s\" is not a valid phone number."
+msgstr ""
+
+#: includes/class-llms-twilio-api.php:48
+msgid "LifterLMS Twilio integration is not available."
+msgstr ""
+
+#: includes/class-llms-twilio-api.php:76
+msgid "There was a problem connecting to the Twilio API."
+msgstr ""
+
+#: includes/class-llms-twilio-api.php:83
+msgid "Empty Response."
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:80
+msgid "Current Date"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:81
+msgid "Student First Name"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:82
+msgid "Student Last Name"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:83
+msgid "Website Title"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:84
+msgid "Website URL"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:85, includes/metaboxes/class-llms-twilio-metabox-sms-settings.php:41
+msgid "Student Phone Number"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:267
+msgid "Send an SMS (via Twilio)"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:301
+msgid "SMS Messages"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:302
+msgid "SMS Message"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:303
+msgctxt "Admin menu name"
+msgid "SMS Messages"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:304
+msgid "Add SMS Message"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:305
+msgid "Add New SMS Message"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:306
+msgid "Edit"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:307
+msgid "Edit SMS Message"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:308
+msgid "New SMS Message"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:309, includes/class-llms-twilio-engagements.php:310
+msgid "View SMS Message"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:311
+msgid "Search SMS Messages"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:312
+msgid "No SMS Messages found"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:313
+msgid "No SMS Messages found in trash"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:314
+msgid "Parent SMS Message"
+msgstr ""
+
+#: includes/class-llms-twilio-engagements.php:316
+msgid "This is where you can add new SMS Messages."
+msgstr ""
+
+#: includes/class-llms-twilio-notifications.php:61
+msgid "SMS"
+msgstr ""
+
+#: includes/class-llms-twilio-notifications.php:131, includes/metaboxes/class-llms-twilio-metabox-sms-settings.php:51
+msgid "Enter additional SMS-enabled numbers which should recieve this notification. Separate multiple numbers with commas.<br>Format numbers with a \"+\" and country code e.g., %1$s (%2$sE.164 format%3$s)."
+msgstr ""
+
+#: includes/class-llms-twilio-notifications.php:178
+msgid "%1$s completed the course %2$s"
+msgstr ""
+
+#: includes/class-llms-twilio-notifications.php:182
+msgid "%1$s enrolled in the course %2$s"
+msgstr ""
+
+#: includes/class-llms-twilio-notifications.php:186
+msgid "%1$s completed the track %2$s"
+msgstr ""
+
+#: includes/class-llms-twilio-notifications.php:191
+msgid "Purchase (#%1$s) from %2$s purchased %3$s on %4$s for %5$s"
+msgstr ""
+
+#: includes/class-llms-twilio-notifications.php:198
+msgid "%1$s failed quiz %2$s from lesson %3$s in course %4$s with a %5$s"
+msgstr ""
+
+#: includes/class-llms-twilio-notifications.php:205
+msgid "%1$s passed quiz %2$s from lesson %3$s in course %4$s with a %5$s"
+msgstr ""
+
+#: includes/class-llms-twilio-privacy.php:19
+msgid "LifterLMS Twilio"
+msgstr ""
+
+#: includes/class-llms-twilio-privacy.php:33
+msgid "This sample language includes the basics around what personal data your site shares with Twilio. We recommend consulting with a lawyer when deciding what information to disclose on your privacy policy."
+msgstr ""
+
+#: includes/class-llms-twilio-privacy.php:36
+msgid "We Utilize Twilio to receive and process SMS text messages sent to us in order to enroll you into courses or memberships via SMS. If you use any text to enroll features of this site or if you have consented to receive text message notifications from us your phone number will be shared with Twilio using Twilio APIs. For more information, please refer to <a href=\"https://www.twilio.com/legal/privacy\">Twilio's Privacy Policy</a>."
+msgstr ""
+
+#: includes/class-llms-twilio-rest.php:123
+msgid "User enrolled via Twilio Text to Enroll"
+msgstr ""
+
+#: includes/class-llms-twilio-rest.php:141
+msgid "Invalid request."
+msgstr ""
+
+#: includes/class-llms-twilio-rest.php:148
+msgid "Please try again."
+msgstr ""
+
+#: includes/class-llms-twilio-rest.php:159
+msgid "Please respond with your email address to complete your enrollment into the %1$s \"%2$s\""
+msgstr ""
+
+#: includes/class-llms-twilio-rest.php:180
+msgid "That didn't appear to be a valid email address. Please try again."
+msgstr ""
+
+#: includes/class-llms-twilio-rest.php:203
+msgid "Looks like you're already enrolled in this %1$s. You can sign in to your account at %2$s or visit the %1$s at %3$s."
+msgstr ""
+
+#: includes/class-llms-twilio-rest.php:216
+msgid "A new account has been created for you and enrolled into the %1$s! Instructions for creating a password have been sent to your email or you can visit %2$s now to get started."
+msgstr ""
+
+#: includes/class-llms-twilio-rest.php:224
+msgid "You've been successfully enrolled in the %1$s! You can sign in to your account at %2$s or visit the %1$s at %3$s."
+msgstr ""
+
+#: includes/metaboxes/class-llms-twilio-metabox-sms-settings.php:21
+msgid "SMS Settings"
+msgstr ""
+
+#: includes/metaboxes/class-llms-twilio-metabox-sms-settings.php:59
+msgid "To Numbers:"
+msgstr ""

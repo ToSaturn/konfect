@@ -1,0 +1,1 @@
+<button class="<?php echo $args['class']; ?>"><?php echo $args['text']; ?></button>

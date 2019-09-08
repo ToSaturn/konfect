@@ -1,0 +1,199 @@
+.separate_set, .course {
+	height: 100%;
+	margin-top: -170px;
+	padding: 0 10.8%;
+}
+.favorites {
+	margin-top: 305px;
+	width: 53px;
+	height: 51px;
+	background: url(../img/favorites.png) no-repeat center;
+	-webkit-background-size: contain;
+	background-size: contain;
+}
+.separate_set .cat, .course .llms-categories, .course .cat {
+	margin-top: 28px;
+	display: inline-block;
+	color: #f88d02;
+	font-size: 34px;
+	font-style: italic;
+}
+.course .llms-categories {
+	font-style: normal;
+}
+.course .llms-categories a {
+	font-style: italic;
+	color: inherit;
+	text-decoration: none;
+}
+.separate_set h1, .course h1 {
+	margin: 22px 0 58px;
+	color: #ffffff;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.separate_set .duration:before, .course .duration:before {
+	top: 0;
+}
+.separate_set .span_row, .course .span_row {
+	padding: 0;
+}
+.separate_set_slider {
+	margin-top: 55px;
+	margin-right: -13.7%;
+	margin-left: -13.7%;
+	margin-bottom: 53px;
+}
+.separate_set_slider .slick-slide {
+	margin: 0 4px;
+	position: relative;
+}
+.separate_set_slider .slick-slide img {
+	width: 100%;
+}
+.separate_set_slider .discount:before {
+	width: 178px;
+	height: 53px;
+	color: #ffffff;
+	padding-left: 20px;
+	line-height: 53px;
+	font-size: 25px;
+	position: absolute;
+	top: 52px;
+	left: -5px;
+}
+.separate_set_slider .nextArrow, .separate_set_slider .prevArrow {
+	height: 100%;
+	background-position-y: 10%;
+}
+.separate_set p.progress {
+	margin: 56px 0 20px;
+	color: #fff;
+	font-size: 22px;
+}
+.separate_set p.progress span {
+	color: #f88d02;
+	font-weight: 700;
+}
+.separate_set .progressbar {
+	width: 100%;
+	height: 26px;
+	background: url(../img/progressbar.png) no-repeat center;
+}
+.separate_set h2 {
+	margin: 88px 0 55px;
+	color: #ffffff;
+	font-size: 40px;
+}
+.separate_set .accordion {
+	position: relative;
+}
+.separate_set .accordion .col:first-child {
+	width: 30.7%;
+	margin-right: 30px;
+}
+.separate_set .accordion .row .col:last-child {
+	width: 64.8%;
+}
+.separate_set .accordion .preview, .accordion_block .preview {
+	width: 100%;
+	height: 276px;
+	margin-bottom: 38px;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #ffffff;
+	font-size: 22px;
+	text-align: center;
+	line-height: 276px;
+	overflow-y: hidden;
+}
+.separate_set .accordion .accordion_but, .accordion_block .accordion_but {
+	padding: 14px 0;
+	height: 57px;
+	color: #ffffff;
+	font-size: 23px;
+	border-radius: 52px;
+	border: 1px solid #f88d02;
+	background-color: #f88d02;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+.separate_set .accordion .accordion_but:hover, .accordion_block .accordion_but:hover {
+	background-color: transparent;
+}
+.separate_set .accordion .collapse {
+	margin-top: 0;
+}
+.separate_set .viewed {
+	position: relative;
+}
+.separate_set .accordion .collapse button:not(.accordion_but) {
+	margin: 21px 0 36px;
+	text-align: left;
+	font-size: 35px;
+	color: #f88d02;
+	border: none;
+	background-color: transparent;
+}
+.separate_set_accordion span.close {
+   position: absolute;
+   display: none;
+   right: 30px;
+   top: -10px;
+   color: #ffffff;
+   font-size: 103px;
+   font-weight: 300;
+   transform: rotate(45deg);
+   cursor: pointer;
+}
+.separate_set .viewed_left {
+	width: 260px;
+	height: 53px;
+	padding-left: 20px;
+	line-height: 53px;
+	display: none;
+	position: absolute;
+	top: 57px;
+	left: -16px;
+	color: #ffffff;
+	font-size: 25px;
+	background: url(../img/viewed_left.png) no-repeat;
+	background-position: left top;
+	z-index: 2;
+}
+.separate_set .viewed_right {
+	width: 260px;
+	height: 53px;
+	padding-right: 20px;
+	line-height: 53px;
+	position: absolute;
+	top: 33px;
+	right: -16px;
+	color: #ffffff;
+	text-align: right;
+	font-size: 25px;
+	background: url(../img/viewed_right.png) no-repeat;
+	background-position: top right;
+	z-index: 2;
+}
+.similar_courses {
+	margin-bottom: 103px;
+}
+.similar_courses h3 {
+	margin: 112px 0 55px;
+	color: #ffffff;
+	font-size: 40px;
+}
+.similar_courses_block {
+	width: 25%;
+	height: 579px;
+	margin: 0 3px;
+	border: 1px dashed #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.similar_courses_block:first-child {
+	margin-left: 0;
+}
+.similar_courses_block:last-child {
+	margin-right: 0;
+}

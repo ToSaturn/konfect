@@ -1,0 +1,35 @@
+{
+    "name": "gocodebox/launchpad-framework",
+    "version": "0.0.1",
+    "description": "The LaunchPad Framework.",
+    "keywords": ["framework", "launchpad"],
+    "license": "GPL",
+    "homepage": "https://launchpad.readme.io",
+    "support": {
+        "issues": "https://launchpad.readme.io",
+        "source": "https://launchpad.readme.io"
+    },
+    "authors": [
+        {
+          "name": "Mark Nelson",
+          "email": "mark@gocodebox.com",
+          "homepage": "http://gocodebox.com"
+        },
+        {
+          "name": "Thomas Levy",
+          "email": "thomas@gocodebox.com",
+          "homepage": "http://gocodebox.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+      "files": [
+          "src/SkyLab/Foundation/helpers.php"
+      ],
+      "psr-4": {
+        "SkyLab\\": "src/SkyLab/"
+      }
+    }
+}

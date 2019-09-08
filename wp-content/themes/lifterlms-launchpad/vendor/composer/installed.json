@@ -1,0 +1,54 @@
+[
+    {
+        "name": "gocodebox/launchpad-framework",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/gocodebox/launchpad-framework.git",
+            "reference": "ff6ed8382f112deab8b71573ede25afbda72d7ca"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/gocodebox/launchpad-framework/zipball/ff6ed8382f112deab8b71573ede25afbda72d7ca",
+            "reference": "ff6ed8382f112deab8b71573ede25afbda72d7ca",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9"
+        },
+        "time": "2018-05-30T21:52:25+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "src/SkyLab/Foundation/helpers.php"
+            ],
+            "psr-4": {
+                "SkyLab\\": "src/SkyLab/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL"
+        ],
+        "authors": [
+            {
+                "name": "Mark Nelson",
+                "email": "mark@gocodebox.com",
+                "homepage": "http://gocodebox.com"
+            },
+            {
+                "name": "Thomas Levy",
+                "email": "thomas@gocodebox.com",
+                "homepage": "http://gocodebox.com"
+            }
+        ],
+        "description": "The LaunchPad Framework.",
+        "homepage": "https://launchpad.readme.io",
+        "keywords": [
+            "framework",
+            "launchpad"
+        ]
+    }
+]

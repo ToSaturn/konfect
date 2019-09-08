@@ -1,0 +1,1584 @@
+/*!
+Theme Name: Онлайн школа Ксении Нохриной
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: ksenia_nokhrina_online_school
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.main
+
+Ksenia_Nokhrina_Online_School is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+   display: none;
+}
+
+/* Normalize */
+*{box-sizing: border-box;}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+body{margin:0;}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary{display:block;}
+audio,
+canvas,
+progress,
+video{display:inline-block;vertical-align:baseline;}
+audio:not([controls]){display:none;height:0;}
+[hidden],
+template{display:none;}
+a{background-color:transparent;}
+a:active,
+a:hover{outline:0;}
+abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted;}
+b,
+strong{font-weight:inherit;}
+b,
+strong{font-weight:bolder;}
+div{box-sizing: border-box;}
+dfn{font-style:italic;}
+h1{font-size:2em;margin:0.67em 0;}
+mark{background-color:#ff0;color:#000;}
+small{font-size:80%;}
+sub,
+sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
+sup{top:-0.5em;}
+sub{bottom:-0.25em;}
+img{border:0;}
+svg:not(:root){overflow:hidden;}
+figure{margin:1em 40px;}
+hr{box-sizing:content-box;height:0;overflow:visible;}
+pre{overflow:auto;}
+code,
+kbd,
+pre,
+samp{font-family:monospace, monospace;font-size:1em;}
+button,
+input,
+optgroup,
+select,
+textarea{font:inherit;margin:0;}
+button{overflow:visible;}
+button,
+select{text-transform:none;}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+button[disabled],
+html input[disabled]{cursor:default;}
+button::-moz-focus-inner,
+input::-moz-focus-inner{border:0;padding:0;}
+button:-moz-focusring,
+input:-moz-focusring{outline:1px dotted ButtonText;}
+input{line-height:normal;}
+input[type="checkbox"],
+input[type="radio"]{box-sizing:border-box;padding:0;}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button{height:auto;}
+input[type="search"]{-webkit-appearance:textfield;}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}
+legend{border:0;padding:0;}
+textarea{overflow:auto;}
+optgroup{font-weight:bold;}
+button:focus {outline: none!important;}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+}
+.row {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+}
+.col {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+}
+.container_80vw {
+	width: 80vw;
+	margin: 0 auto;
+}
+section {
+	width: 100vw;
+}
+body {
+	background-color: #21222a;
+}
+
+/* Шапка */
+header {
+	height: 170px;
+	background-image: url(./img/header_bg.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	z-index: 99;
+}
+header .row {
+	width: 85vw;
+	margin: 0 auto;
+	position: relative;
+}
+/* меню */
+nav {
+	color: #ffffff;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+nav ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	padding: 0;
+}
+nav ul li {
+	margin: 0 28px;
+}
+nav ul li:first-child {
+	list-style: none;
+}
+.left_menu {
+	position: absolute;
+	left: -50px;
+}
+.left_menu ul li:first-child {
+	margin-left: 0;
+}
+.right_menu {
+	position: absolute;
+	right: 100px;
+}
+.right_menu ul li:last-child {
+	margin-right: 0;
+} 
+nav ul li a {
+	position: relative;
+	bottom: 2px;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 18px;
+	transition: .3s;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+}
+/* лого */
+header .logo {
+	height: 120px;
+	position: absolute;
+   top: 10px;
+   left: 50%;
+   transform: translate(-50%);
+}
+header .logo img {
+	height: 100%;
+	width: auto;
+}
+/* переключение языка */
+.lang {
+	width: 39px;
+	height: 39px;
+	position: absolute;
+	top: 17px;
+	right: 0;
+	background: url(./img/Flag_of_Russia_2008.png) no-repeat;
+}
+
+/* Первый блок */
+main {
+	height: 100vh;
+	position: relative;
+}
+main > article {
+	padding: 0!important;
+}
+.main {
+	margin-top: -170px;
+	position: relative;
+	background: url(./img/main_bg.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center bottom;
+	z-index: -1;
+}
+.main .hashtag {
+	position: absolute;
+	right: 7.6%;
+	top: 45%;
+	color: #ffffff;
+	font-size: 63px;
+	font-family: 'Neucha', cursive;
+}
+.main .adv {
+	width: 100%;
+	margin: auto;
+	position: absolute;
+	bottom: 30px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.main .adv .row {
+	width: 85vw;
+}
+.main .adv_item {
+	width: 373px;
+   margin: 0 4px;
+   padding: 20px 30px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	border-radius: 100px;
+	border: 1px solid #ffffff;
+	background-color: rgba(36, 36, 46, 0.5);
+}
+.main .adv_item:first-child {
+	margin-left: 0;
+}
+.main .adv_item:last-child {
+	margin-right: 0;
+}
+.main .adv .number {
+	color: #f88d02;
+	padding-right: 5px;
+	font-size: 59px;
+	font-family: 'Neucha', cursive;
+	font-weight: 400;
+	position: relative;
+}
+.main .adv .number-more:before {
+	content: 'БОЛЕЕ';
+	width: auto;
+	height: auto;
+	display: inline-block;
+	color: #f88d02;
+	font-size: 12px;
+	font-family: 'Neucha', cursive;
+	position: absolute;
+	top: -5px;
+	left: 2px;
+}
+.main .adv_text {
+	color: #ffffff;
+	font-size: 19px;
+	font-weight: 300;
+}
+
+/* Добро пожаловать */
+.wellcome {
+	padding-top: 150px;
+	position: relative;
+	border-bottom: 1px solid #fff;
+}
+.wellcome .row {
+	-ms-align-items: flex-end;
+	align-items: flex-end;
+}
+.wellcome .img_i {
+	margin-right: 7%;
+}
+.wellcome .img_i img {
+	vertical-align: bottom;
+}
+.wellcome .wellcome_text {
+	padding-bottom: 60px;
+}
+.wellcome h1 {
+	color: #ffffff;
+	font-size: 40px;
+	font-family: 'Neucha', cursive;
+}
+.wellcome p {
+	margin-bottom: 45px;
+	color: #f2f2f2;
+	font-size: 18px;
+}
+.more {
+	color: #f88d02;
+	font-size: 20px;
+	font-weight: 500;
+	font-style: italic;
+	text-decoration: none;
+	transition: .3s;
+}
+.more:hover {
+	text-decoration: underline;
+}
+
+/* Карусель с уроками */
+.lessons_carousel {
+	padding: 70px 0 115px;
+}
+.lessons_carousel .row {
+	width: 70vw;
+	margin: 0 auto 70px;
+	justify-content: space-around;
+}
+
+/* кнопки */
+.button {
+	width: 368px;
+	height: 72px;
+	color: #fff;
+	cursor: pointer;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	border-radius: 100px;
+	border: 1px solid #ffffff;
+	background-color: transparent;
+	transition: .3s;
+}
+.button:focus {
+	outline: none;
+}
+.button:hover {
+	background-color: #ea8808;
+	border: 1px solid #ffffff;
+}
+a.active, button.active {
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	border: 1px solid transparent;
+	border-radius: 100px;
+	background-color: #f88d02;
+}
+.lessons {
+	position: relative;
+}
+.lesson:not(.hentry) {
+	width: 369px;
+	height: 590px;
+	position: relative;
+	margin: 0 10px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	border: 1px solid #ffffff;
+}
+.lesson:focus {
+	outline: none;
+}
+.lesson .row {
+	width: 100%;
+}
+.lesson img {
+	width: 100%;
+	height: 361px;
+}
+
+.prevArrow {
+	width: 180px;
+	height: 622px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 2;
+	left: 0;
+	top: 0;
+	background: url(./img/prev_arrow.png) no-repeat;
+	transition: .2s;
+	opacity: 0.8;
+}
+.prevArrow:hover, .nextArrow:hover {
+	opacity: 1;
+}
+.nextArrow {
+	width: 180px;
+	height: 622px;
+	position: absolute;
+	cursor: pointer;
+	z-index: 2;
+	right: 0;
+	top: 0;
+	transition: .2s;
+	background: url(./img/next_arrow.png) no-repeat;
+	opacity: 0.8;
+}
+.lesson:not(.type-lesson) .row {
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+	margin: 16px 0 40px;
+}
+.duration {
+	display: inline-block;
+	color: #8f8980;
+	font-size: 17px;
+	font-weight: 500;
+}
+.duration:before {
+	content: '';
+	display: inline-block;
+	width: 37px;
+	height: 29px;
+	margin-right: 10px;
+	position: relative;
+	top: 7px;
+	background: url(./img/время.svg) no-repeat center;
+}
+.complexity {
+	display: inline-block;
+	width: 120px;
+	height: 36px;
+	background: url(./img/complexity_easy.png) no-repeat;
+}
+.complexity[data-level="mid"] {
+	background: url(./img/complexity_middle.png) no-repeat;
+}
+.complexity[data-level="hard"] {
+	background: url(./img/complexity_hard.png) no-repeat;
+}
+
+.lesson p {
+	margin: 0 19px;
+	color: #ffffff;
+	font-size: 22px;
+}
+.lesson_row .lesson p,
+.lesson_row .lesson .duration{
+	text-transform: uppercase;
+}
+.lesson .more {
+	position: absolute;
+	bottom: 25px;
+	left: 20px;
+}
+
+/* Онлайн школа лого */
+.logo_school {
+	height: 521px;
+	background: url(./img/online-school_bg.png) no-repeat center;
+}
+.logo_school .col {
+	width: 40vw;
+	margin: 0 auto;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.logo_school .logo {
+	width: 414px;
+	height: 86px;
+	margin: 35px auto 43px;
+	background: url(./img/school.png) no-repeat center;
+}
+.logo_school h2 {
+	text-align: center;
+	margin: 0;
+}
+.logo_school .orange {
+	color: #f88d02;
+	font-size: 57px;
+	font-weight: 500
+}
+.logo_school .white {
+	display: inline-block;
+	margin-top: 15px;
+	margin-bottom: 55px;
+	color: #ffffff;
+	font-size: 55px;
+}
+.logo_school .button {
+	border-radius: 34px;
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 24px;
+	font-weight: 700;
+}
+.logo_school .button:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+/* Наши партнеры */
+.partners {
+	padding-top: 77px;
+	padding-left: 11%;
+	padding-right: 11%;
+}
+.partners h3 {
+	width: 550px;
+	color: #f88d02;
+	margin: 0 auto -30px;
+	text-align: center;
+	font-size: 45px;
+	font-weight: 500;
+	background: #21222a;
+	position: relative;
+	z-index: 2;
+}
+.partners .partners_slider {
+	width: 100%;
+	margin: 0 auto 111px;
+	padding: 110px 50px 20px;
+	border: 6px solid #ffffff;
+	background-color: transparent;
+}
+.partners_slider {
+	margin-bottom: 111px;
+}
+.partners_slider .col {
+	-ms-align-items: center;
+	align-items: center;
+}
+.logo_coocking_chef {
+	width: 184px;	
+	height: 175px;
+	margin: 50px 0 40px;
+	display: inline-block;
+	background: url(./img/logo_cookingchef.png) no-repeat center;
+}
+.partners_slider .header {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;
+}
+.partners .partners_slider .slick-slide {
+	padding: 0;
+}
+.partners_slider p {
+	color: #ffffff;
+	font-size: 18px;
+	margin: 19px 65px 40px;
+}
+.partners_slider .button {
+	color: #000;
+	font-size: 24px;
+	font-weight: 700;
+	border-radius: 34px;
+	background-color: #f88d02;
+	border: 1px solid #f88d02;
+}
+.partners_slider .button:hover {
+	color: #f88d02;
+	background-color: #000;
+}
+.partners_slider .slick-dots {
+	padding: 0;
+	display: -webkit-flex!important;
+	display: -moz-flex!important;
+	display: -ms-flex!important;
+	display: -o-flex!important;
+	display: flex!important;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	list-style: none;
+}
+.partners_slider .slick-dots button {
+	width: 25px;
+	height: 25px;
+	color: transparent;
+	background-color: transparent;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	transition: .3s;
+}
+.slick-slide:focus {
+	outline: none;
+}
+.partners_slider .slick-dots button:focus {
+	outline: none;
+}
+.partners_slider .slick-dots li:first-child button {
+	margin-right: 10px;
+}
+.partners_slider .slick-dots li.slick-active button {
+	background-color: #fff;
+}
+
+/* Подвал */
+footer {
+	border-top: 1px solid #fff;
+}
+footer h4 {
+	width: 344px;
+	height: 68px;
+	margin: -36px auto 55px;
+	border-radius: 43px;
+	background-color: #23232d;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+footer .row {
+	width: 85%;
+	margin: 0 auto 46px;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+footer .row:nth-child(3) {
+	justify-content: space-around;
+}
+footer .inst_img {
+	width: 100%;
+	max-width: 236px;
+	margin-right: 17px;
+	height: 231px;
+	transition: transform .2s;
+}
+footer .inst_img:last-child {
+	margin-right: 0;
+}
+footer .inst_img:hover {
+	transform: scale(1.05);
+}
+footer .inst_img img {
+	width: 100%;
+	height: 100%;
+}
+footer .logo_footer {
+	max-width: 203px;
+}
+.logo_footer img {
+	width: 100%;
+}
+footer nav ul {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	list-style: none;
+	-ms-align-items: center;
+	align-items: center;
+}
+footer nav ul li {
+	padding: 15px 0;
+}
+footer .copyright {
+	width: 100%;
+	border-top: 1px solid #fff;
+}
+footer .copyright p {
+	margin: 25px auto;
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+}
+
+/************** Адаптив **************/
+@media (min-width: 1200px) and (max-width: 1599px) {
+	/* Шапка */
+	header .row {
+		width: 100vw;
+	}
+	.left_menu {
+		left: 15px;
+	}
+	.lang {
+		right: 15px;
+	}
+	header nav ul li a {
+		font-size: 16px;
+	}
+	/* Главный блок */
+	main .adv .row {
+		width: 100vw;
+	}
+	main .adv_item {
+		padding: 20px;
+	}
+	main .adv .number {
+		padding-right: 14px;
+		font-size: 64px;
+	}
+	/* Карусель с уроками */
+	.lessons_carousel .row {
+		width: 96vw;
+	}
+	.lesson .row {
+		width: 100%;
+	}
+	.logo_school .col {
+		width: 55vw;
+	}
+	/* Наши партнеры */
+	.partners img {
+		width: 390px;
+		height: 100%;
+	}
+	.partners .row {
+		-ms-align-items: center;
+		align-items: center;
+	}
+	/* Подвал */
+	footer .row {
+		width: 95%;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	/* Шапка */
+	header {
+		height: 162px;
+	}
+	header .row {
+		width: 100vw;
+	}
+	header nav ul li {
+		margin: 0 18px;
+	}
+	.left_menu {
+		left: 15px;
+	}
+	.lang {
+		right: 15px;
+	}
+	header nav ul li a {
+		font-size: 14px;
+	}
+	header .logo {
+		height: 114px;
+		top: 28px;
+	}
+	/* Главный блок */
+	main .hashtag {
+		font-size: 50px;
+	}
+	main .adv .row {
+		width: 100vw;
+		justify-content: space-around;
+	}
+	main .adv_item {
+		padding: 20px;
+		width: 235px;
+	}
+	main .adv .number {
+		padding-right: 10px;
+		font-size: 50px;
+	}
+	main .adv_text {
+		font-size: 15px;
+	}
+	/* Добро пожаловать */
+	.wellcome .container_80vw {
+		width: 100vw;
+	}
+	.wellcome .img_i {
+		margin-right: 0;
+	}
+	.wellcome .wellcome_text {
+		padding-right: 15px;
+	}
+	/* Карусель с уроками */
+	.lessons_carousel {
+		padding: 70px 0 0;
+	}
+	.lessons_carousel .row {
+		width: 96vw;
+	}
+	.lesson .row {
+		width: 100%;
+		margin: 16px 0 30px;
+	}
+	.lesson p {
+		font-size: 18px;
+	}
+	.lessons_carousel a.button {
+		width: 290px;
+	}
+	.logo_school .col {
+		width: 55vw;
+	}
+	.complexity {
+		width: 106px;
+		-webkit-background-size: contain;
+		background-size: contain;
+
+	}
+	/* Наши партнеры */
+	.partners_slider {
+		padding: 0 40px 20px;
+	}
+	.partners_slider p {
+		margin: 19px 22px 40px;
+	}
+	.partners img {
+		width: 350px;
+		height: 100%;
+		margin-right: 15px;
+	}
+	.logo_coocking_chef {
+		margin: 50px 0 0;
+	}
+	.partners .row {
+		-ms-align-items: center;
+		align-items: center;
+	}
+	.partners a.button {
+		position: relative;
+		left: -155px;
+		margin-bottom: 15px;
+	}
+
+	/* Подвал */
+	footer .row {
+		width: 95%;
+	}
+	footer .inst_img {
+		height: 100%;
+		width: auto;
+		max-width: auto;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	/* Шапка */
+	header {
+		height: 162px;
+	}
+	header .row {
+		width: 100vw;
+	}
+	header nav ul {
+		list-style: none;
+	}
+	header nav ul li {
+		margin: 0;
+		margin-right: 15px;
+	}
+	.left_menu {
+		left: 15px;
+	}
+	.lang {
+		right: 15px;
+	}
+	header nav ul li a {
+		font-size: 14px;
+	}
+	header .logo {
+		height: 114px;
+		top: 28px;
+	}
+	/* Главный блок */
+	main .hashtag {
+		font-size: 40px;
+	}
+	main .adv .row {
+		width: 100vw;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	main .adv_item {
+		padding: 20px;
+		width: 325px;
+		margin: 10px 0;
+	}
+	main .adv .number {
+		padding-right: 10px;
+		font-size: 54px;
+	}
+	main .adv_text {
+		font-size: 20px;
+	}
+	/* Добро пожаловать */
+	.wellcome {
+		padding-top: 40px;
+	}
+	.wellcome h1 {
+		margin-top: 0;
+		text-align: center;
+	}
+	.wellcome .container_80vw {
+		width: 90vw;
+		flex-wrap: wrap;
+	}
+	.wellcome .img_i {
+		margin: 0 auto;
+	}
+	.wellcome .wellcome_text {
+		padding-right: 15px;
+	}
+	.wellcome .wellcome_text .more {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+	/* Карусель с уроками */
+	.lessons_carousel {
+		padding: 70px 0 0;
+	}
+	.lessons_carousel .row {
+		width: 96vw;
+	}
+	.lesson .row {
+		width: 100%;
+		margin: 16px 0 30px;
+	}
+	.lesson p {
+		font-size: 18px;
+	}
+	.lessons_carousel a.button {
+		width: 240px;
+	}
+	.logo_school .col {
+		width: 55vw;
+	}
+	.complexity {
+		width: 106px;
+		-webkit-background-size: contain;
+		background-size: contain;
+
+	}
+	/* Наши партнеры */
+	.partners_slider {
+		padding: 0 40px 20px;
+	}
+	.partners_slider p {
+		margin: 19px 22px 40px;
+	}
+	.partners img {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		margin-top: 25px;
+	}
+	.logo_coocking_chef {
+		margin: 0;
+	}
+	.partners .row {
+		-ms-align-items: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.partners a.button {
+		margin-bottom: 15px;
+	}
+
+	/* Подвал */
+	footer .row {
+		width: 95%;
+	}
+	footer .inst_img {
+		height: 100%;
+		width: auto;
+		max-width: auto;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+	/* Шапка */
+	header {
+		height: 140px;
+	}
+	header .row {
+		width: 100vw;
+	}
+	header nav ul {
+		list-style: none;
+	}
+	header nav ul li {
+		margin: 0;
+		margin-right: 15px;
+	}
+	.left_menu {
+		left: 10px;
+	}
+	.right_menu {
+		right: 60px;
+	}
+	.lang {
+		width: 34px;
+		-webkit-background-size: contain;
+		background-size: contain;
+		right: 10px;
+	}
+	header nav ul li a {
+		font-size: 12px;
+	}
+	header .logo {
+		height: 85px;
+		top: 45px;
+	}
+	/* Главный блок */
+	main .hashtag {
+		font-size: 40px;
+		bottom: 55%;
+		left: 2%;
+	}
+	main .adv .row {
+		width: 100vw;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	main .adv_item {
+		padding: 20px 45px;
+		width: 325px;
+		margin: 10px 0;
+	}
+	main .adv .number {
+		padding-right: 10px;
+		font-size: 54px;
+	}
+	main .adv_text {
+		font-size: 20px;
+	}
+	/* Добро пожаловать */
+	.wellcome {
+		padding-top: 40px;
+	}
+	.wellcome h1 {
+		margin-top: 0;
+		text-align: center;
+	}
+	.wellcome .container_80vw {
+		width: 90vw;
+		flex-wrap: wrap;
+	}
+	.wellcome .img_i {
+		margin: 0 auto;
+	}
+	.wellcome .wellcome_text {
+		padding-right: 15px;
+	}
+	.wellcome .wellcome_text .more {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+	/* Карусель с уроками */
+	.lessons_carousel {
+		padding: 70px 0 0;
+	}
+	.lessons_carousel .row {
+		width: 100vw;
+	}
+	.lesson .row {
+		width: 100%;
+		margin: 16px 0 30px;
+	}
+	.lesson {
+		max-width: 100%;
+	}
+	.lesson p {
+		font-size: 18px;
+	}
+	.lessons_carousel a.button {
+		width: 240px;
+		height: 65px;
+	}
+	.logo_school .col {
+		width: 80vw;
+	}
+	.complexity {
+		width: 106px;
+		-webkit-background-size: contain;
+		background-size: contain;
+
+	}
+	/* Наши партнеры */
+	.partners_slider {
+		padding: 0 40px 20px;
+	}
+	.partners h3 {
+		width: 438px;
+		margin-top: 30px;
+		font-size: 42px;
+	}
+	.partners_slider p {
+		margin: 19px 22px 40px;
+	}
+	.partners img {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		margin-top: 25px;
+	}
+	.logo_coocking_chef {
+		margin: 0;
+	}
+	.partners .row {
+		-ms-align-items: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.partners a.button {
+		margin-bottom: 15px;
+	}
+
+	/* Подвал */
+	footer .row {
+		width: 95%;
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	footer .inst_img {
+		height: 100%;
+		width: auto;
+		max-width: auto;
+	}
+	footer .row:nth-child(3) {
+		-webkit-flex-wrap: nowrap;
+		-moz-flex-wrap: nowrap;
+		-ms-flex-wrap: nowrap;
+		-o-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+	}
+	footer nav ul li {
+		margin: 0;
+		text-align: center;
+	}
+	.right_menu_footer {
+		flex-grow: 1;
+	}
+	footer .logo_footer {
+		margin: 0 10px;
+	}
+}
+@media (min-width: 320px) and (max-width: 575px) {
+	/* Шапка */
+	header {
+		position: relative;
+		height: 185px;
+	}
+	header .row {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		width: 100vw;
+		background: rgba(36, 36, 46, 0.5);
+	}
+	header nav ul {
+		list-style: none;
+	}
+	header nav ul li {
+		margin: 0;
+		margin-right: 15px;
+	}
+	.left_menu {
+		position: relative;
+		left: 15px;
+		-webkit-order: 2;
+		-moz-order: 2;
+		-ms-order: 2;
+		-o-order: 2;
+		order: 2;
+	}
+	.right_menu {
+		position: relative;
+		right: -50px;
+		margin-bottom: -35px;
+		-webkit-order: 1;
+		-moz-order: 1;
+		-ms-order: 1;
+		-o-order: 1;
+		order: 1;
+	}
+	.lang {
+		width: 34px;
+		-webkit-background-size: contain;
+		background-size: contain;
+		right: 10px;
+	}
+	header nav ul li a {
+		font-size: 12px;
+	}
+	header .logo {
+		height: 85px;
+		top: 92px;
+	}
+	/* Главный блок */
+	main .hashtag {
+		font-size: 40px;
+		bottom: 55%;
+		left: 2%;
+	}
+	main .adv .row {
+		width: 100vw;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	main .adv_item {
+		padding: 20px 40px;
+		width: 325px;
+		margin: 10px 0;
+	}
+	main .adv .number {
+		padding-right: 10px;
+		font-size: 54px;
+	}
+	main .adv_text {
+		font-size: 20px;
+	}
+	/* Добро пожаловать */
+	.wellcome {
+		padding-top: 40px;
+	}
+	.wellcome h1 {
+		font-size: 36px;
+		margin-top: 0;
+		text-align: center;
+	}
+	.wellcome .container_80vw {
+		width: 90vw;
+		flex-wrap: wrap;
+	}
+	.wellcome .img_i {
+		margin: 0 auto;
+		width: 95%;
+	}
+	.wellcome .img_i img {
+		width: 100%;
+	}
+	.wellcome .wellcome_text {
+		padding-right: 15px;
+	}
+	.wellcome .wellcome_text .more {
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+	/* Карусель с уроками */
+	.lessons_carousel {
+		padding: 40px 0 0;
+	}
+	.lessons_carousel > .row {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.lessons_carousel .row {
+		width: 100vw;
+	}
+	.lessons .slick-list {
+		padding: 0 30px!important;
+	}
+	.lesson .row {
+		width: 100%;
+		margin: 16px 0 30px;
+	}
+	.lesson {
+		max-width: 100%;
+	}
+	.lesson p {
+		font-size: 18px;
+	}
+	.lessons_carousel a.button {
+		width: 240px;
+		height: 65px;
+		margin-bottom: 20px;
+	}
+	.prevArrow {
+		width: 80px;
+		background-position: center;
+	}
+	.nextArrow {
+		width: 80px;
+		background-position: center;
+	}
+	.logo_school .col {
+		width: 95vw;
+	}
+	.logo_school .logo {
+		width: 100%;
+	}
+	.logo_school .orange, .logo_school .white {
+		font-size: 48px;
+	}
+	.logo_school .button {
+		width: 95%;
+	}
+	.complexity {
+		width: 106px;
+		-webkit-background-size: contain;
+		background-size: contain;
+
+	}
+	/* Наши партнеры */
+	.partners_slider {
+		padding: 0 20px;
+	}
+	.partners h3 {
+		width: 75%;
+		margin-top: 30px;
+		font-size: 30px;
+	}
+	.partners_slider .header {
+		text-align: center;
+	}
+	.partners_slider p {
+		margin: 15px auto;
+	}
+	.partners_slider .col {
+		width: 100%;
+	}
+	.partners img {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		margin-top: 25px;
+	}
+	.logo_coocking_chef {
+		margin: 0;
+	}
+	.partners .row {
+		-ms-align-items: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.partners a.button {
+		width: 100%;
+		height: 45px;
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+
+	/* Подвал */
+	footer h4 {
+		width: 90%;
+	}
+	footer .row {
+		width: 95%;
+		margin: 0 auto;
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	footer .inst_img {
+		height: 100%;
+		width: auto;
+		margin: 0 auto;
+	}
+	footer .row:nth-child(3) {
+		-webkit-flex-wrap: nowrap;
+		-moz-flex-wrap: nowrap;
+		-ms-flex-wrap: nowrap;
+		-o-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+	}
+	footer .row:nth-child(3) {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	footer .inst_img:last-child {
+		margin: 0 auto;
+	}
+	footer nav ul li {
+		margin: 0;
+		text-align: center;
+	}
+	.right_menu_footer {
+		flex-grow: 1;
+	}
+	footer .logo_footer {
+		margin: 0 10px;
+	}
+}
+
+
+
+
+
+
+/*DEVELOPER TEMP*/
+.widget-area {
+	display: none;
+}
+
+
+.llms-video-wrapper .center-video {
+	position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.llms-video-wrapper .center-video iframe {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+

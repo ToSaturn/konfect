@@ -1,0 +1,199 @@
+# Copyright (C) 2019 lifterlms-convertkit
+# This file is distributed under the same license as the lifterlms-convertkit package.
+msgid ""
+msgstr ""
+"Project-Id-Version: lifterlms-convertkit\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: LifterLMS <help@lifterlms.com>\n"
+"Last-Translator: Thomas Patrick Levy <thomas@lifterlms.com>\n"
+"Report-Msgid-Bugs-To: https://lifterlms.com/my-account/my-tickets\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. translators: %s = post type name.
+#: includes/class-llms-ck-posts-settings.php:74
+msgid "Apply these tags when a student enrolls in this %s."
+msgstr ""
+
+#: includes/class-llms-ck-posts-settings.php:75
+msgid "tags"
+msgstr ""
+
+#. translators: %s = post type name.
+#: includes/class-llms-ck-posts-settings.php:79
+msgid "Add students to these sequences when a student enrolls in this %s."
+msgstr ""
+
+#: includes/class-llms-ck-posts-settings.php:80
+msgid "sequences"
+msgstr ""
+
+#. translators: %s = type of item ("tags" or "sequences").
+#: includes/class-llms-ck-posts-settings.php:91
+msgid "New enrollment %s"
+msgstr ""
+
+#: includes/class-llms-ck-privacy.php:26
+msgid "LifterLMS ConvertKit"
+msgstr ""
+
+#: includes/class-llms-ck-privacy.php:41
+msgid "This sample language includes the basics around what personal data your site shares with ConvertKit. We recommend consulting with a lawyer when deciding what information to disclose on your privacy policy."
+msgstr ""
+
+#: includes/class-llms-ck-privacy.php:44
+msgid "When consenting to receive information about courses and memberships which you are enrolled in, your email address, first name, and last name will be added to ConvertKit, our email marketing service provider. For more information, please refer to <a href=\"https://convertkit.com/privacy/\">ConvertKit's Privacy Policy</a>."
+msgstr ""
+
+#. translators: %s = anchor link to ConvertKit website.
+#: includes/class-llms-integration-convertkit.php:48
+msgid "Connect LifterLMS to %s! Automatically add LifterLMS Students to tags and sequences during registration, course enrollment, and membership signup."
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:76
+msgid "We were unable to locate any tags using the submitted API Key. If you have tags in your ConvertKit account your API Key may be incorrect. Please check your key and try again."
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:83
+msgid "Unable to connect with the ConvertKit API. The submitted API Secret may be incorrect. Please check your secret and try again."
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:135
+msgid "Street Address 2"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:168
+msgid "Clear Cached Data"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:168
+msgid "LifterLMS ConvertKit automatically caches custom fields, tags, and sequences for better admin panel performance. Use this button to clear the cache and retrieve new results directly from ConvertKit."
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:190
+msgid "New User Registration Automations"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:192
+msgid "When a consenting user registers for a new account automatcally add them to tags and sequences."
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:196
+msgid "New Registration Tag(s)"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:197
+msgid "During account registration, apply these tag(s) to the consenting ConvertKit contact."
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:206
+msgid "New Registration Sequence(s)"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:207
+msgid "During account registration, apply these sequence(s) to the consenting ConvertKit contact."
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:231
+msgid "Consent Messages"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:236
+msgid "Subscriber Consent Message"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:237
+msgid "Customize the consent message displayed during enrollment and registrations."
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:244
+msgid "Unsubscribe Message"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:245
+msgid "Customize the message displayed on the student dashboard where students can opt out of their ConvertKit email subscriptions."
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:267
+msgid "API Credentials"
+msgstr ""
+
+#. translators: %1$s = opening anchor tag; %2$s = closing anchor tag.
+#: includes/class-llms-integration-convertkit.php:270
+msgid "Your API credentials are located in your ConvertKit Account Settings. %1$sShow me where%2$s."
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:274
+msgid "API Key"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:281
+msgid "API Secret"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:303
+msgid "Custom Fields"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:305
+msgid "Customize how subscriber data is saved in ConvertKit by mapping LifterLMS enrollment, checkout, and registration fields to custom fields in ConvertKit."
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:308
+msgid "None"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:313
+msgid "LifterLMS Field"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:313
+msgid "ConvertKit Field"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:324
+msgid "First Name"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:345
+msgid "Purchases and Products"
+msgstr ""
+
+#. translators: %1$s = Opening anchor tag to documentation; %2$s = closing anchor tag.
+#: includes/class-llms-integration-convertkit.php:352, includes/class-llms-integration-convertkit.php:382
+msgid "Enable"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:352
+msgid "Saves subscriber ecommerce data to ConvertKit via the Purchases API. %1$sLearn more%2$s."
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:354
+msgid "Sync Subscriber Purchases"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:376
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:382
+msgid "Add consenting WooCommerce customers to the registration automations during checkout registartion and to course and membership automations during enrollment via product purchases."
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:384
+msgid "Checkout Actions"
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:402
+msgid "I would like to receive information about the courses and memberships I've enrolled in on this site."
+msgstr ""
+
+#: includes/class-llms-integration-convertkit.php:415
+msgid "Unsubscribe me from newsletter emails about the courses and memberships I've enrolled in on this site."
+msgstr ""

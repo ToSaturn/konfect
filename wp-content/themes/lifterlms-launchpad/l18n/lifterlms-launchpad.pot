@@ -1,0 +1,2920 @@
+# Copyright (C) 2018 lifterlms-launchpad
+# This file is distributed under the same license as the lifterlms-launchpad package.
+msgid ""
+msgstr ""
+"Project-Id-Version: lifterlms-launchpad\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: LifterLMS <help@lifterlms.com>\n"
+"Last-Translator: Thomas Patrick Levy <thomas@lifterlms.com>\n"
+"Report-Msgid-Bugs-To: https://lifterlms.com/my-account/my-tickets\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:7
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:11
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: archive.php:25, search.php:22
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:26, search.php:23
+msgid "Next page"
+msgstr ""
+
+#: archive.php:27, content-link.php:27, content-page.php:21, content.php:27, image.php:44, search.php:24
+msgid "Page"
+msgstr ""
+
+#: author-bio.php:2
+msgid "Published by"
+msgstr ""
+
+#: author-bio.php:12
+msgid "View all posts by %s"
+msgstr ""
+
+#: comments.php:12
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:37
+msgid "Comments are closed."
+msgstr ""
+
+#: content-link.php:18, content.php:18
+msgid "Continue reading %s"
+msgstr ""
+
+#: content-link.php:23, content-page.php:17, content.php:23, image.php:40
+msgid "Pages:"
+msgstr ""
+
+#: content-link.php:42, content-page.php:27, content-search.php:16, content-search.php:21, content.php:42, image.php:52
+msgid "Edit"
+msgstr ""
+
+#: content-none.php:3
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:10
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:14
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: content-none.php:19
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: home.php:13, index.php:13
+msgid "Posted on %1$s by %2$s. "
+msgstr ""
+
+#: home.php:14, index.php:14
+msgid "Categories: "
+msgstr ""
+
+#: home.php:25, index.php:25
+msgid "Not found"
+msgstr ""
+
+#: home.php:28, index.php:28
+msgid "Sorry, but your request could not be completed."
+msgstr ""
+
+#: image.php:11
+msgid "Previous Image"
+msgstr ""
+
+#: image.php:11
+msgid "Next Image"
+msgstr ""
+
+#: image.php:65
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr ""
+
+#: search.php:9
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:22
+msgid "Next"
+msgstr ""
+
+#: single.php:23
+msgid "Next post:"
+msgstr ""
+
+#: single.php:25
+msgid "Previous"
+msgstr ""
+
+#: single.php:26
+msgid "Previous post:"
+msgstr ""
+
+#: app/Http/AjaxRequestController.php:98
+msgid "Please submit a valid settings object."
+msgstr ""
+
+#: app/Metaboxes/CourseOptions.php:34
+msgid "Course Settings"
+msgstr ""
+
+#: app/Metaboxes/CourseOptions.php:41
+msgid "Course Excerpt"
+msgstr ""
+
+#: app/Metaboxes/CourseOptions.php:42
+msgid "Displays on course archive tile."
+msgstr ""
+
+#: app/Metaboxes/Layout.php:66
+msgid "LaunchPad Theme Layout"
+msgstr ""
+
+#: app/Metaboxes/Layout.php:73, app/Metaboxes/Layout.php:134
+msgid "Alternate Navigation"
+msgstr ""
+
+#: app/Metaboxes/Layout.php:74, app/Metaboxes/Layout.php:135
+msgid "Hide navigation or display an alternate navigation for this post."
+msgstr ""
+
+#: app/Metaboxes/Layout.php:82, app/Metaboxes/Layout.php:144
+msgid "Hide Title"
+msgstr ""
+
+#: app/Metaboxes/Layout.php:83, app/Metaboxes/Layout.php:145
+msgid "Check this box to hide the title from view."
+msgstr ""
+
+#: app/Metaboxes/Layout.php:88, app/Metaboxes/Layout.php:152
+msgid "Hide Header"
+msgstr ""
+
+#: app/Metaboxes/Layout.php:89, app/Metaboxes/Layout.php:153
+msgid "Check this box to hide the entire header from view."
+msgstr ""
+
+#: app/Metaboxes/Layout.php:94, app/Metaboxes/Layout.php:160
+msgid "Hide Footer Widgets Area"
+msgstr ""
+
+#: app/Metaboxes/Layout.php:95, app/Metaboxes/Layout.php:161
+msgid "Check this box to hide the footer widgets area from view."
+msgstr ""
+
+#: app/Metaboxes/Layout.php:102
+msgid "Sidebar Layout"
+msgstr ""
+
+#: app/Metaboxes/Layout.php:103, app/Metaboxes/Layout.php:169
+msgid "Select the default layout for your theme."
+msgstr ""
+
+#: app/Metaboxes/Layout.php:127, app/Settings/Layout.php:32
+msgid "Layout Settings"
+msgstr ""
+
+#: app/Metaboxes/Layout.php:168, app/Settings/Layout.php:77
+msgid "Default Layout"
+msgstr ""
+
+#: app/Metaboxes/Layout.php:180
+msgid "Page Header Content"
+msgstr ""
+
+#: app/Metaboxes/Layout.php:181
+msgid "Display Content in the Page Header"
+msgstr ""
+
+#: app/Scripts/EnqueueScripts.php:35
+msgid "Testing 1, 2, 3!"
+msgstr ""
+
+#: app/Scripts/EnqueueScripts.php:36
+msgid "This is easier than it looks :)"
+msgstr ""
+
+#: app/Settings/Account.php:14
+msgid "LifterLMS Account"
+msgstr ""
+
+#: app/Settings/Account.php:37
+msgid "LifterLMS Account Settings"
+msgstr ""
+
+#: app/Settings/Account.php:59
+msgid "Login & Registration"
+msgstr ""
+
+#: app/Settings/Account.php:67
+msgid "Side by Side Layout "
+msgstr ""
+
+#: app/Settings/Account.php:68
+msgid "Display alternate side by side layout for the login & registration forms"
+msgstr ""
+
+#: app/Settings/Account.php:88
+msgid "Greeting"
+msgstr ""
+
+#: app/Settings/Account.php:96
+msgid "Dashboard Greeting"
+msgstr ""
+
+#: app/Settings/Account.php:97
+msgid "Custom greeting that displays on all users dashboard."
+msgstr ""
+
+#: app/Settings/Account.php:100
+msgid "What would you like to learn today?"
+msgstr ""
+
+#: app/Settings/Account.php:120
+msgid "Account Navigation Settings"
+msgstr ""
+
+#: app/Settings/Account.php:128
+msgid "Navigation Alignment"
+msgstr ""
+
+#: app/Settings/Account.php:129
+msgid "Controls the alignment of navigation"
+msgstr ""
+
+#: app/Settings/Account.php:138
+msgid "Navigation Margin Top"
+msgstr ""
+
+#: app/Settings/Account.php:139
+msgid "Controls the top margin of the navigation in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:147
+msgid "Navigation Margin Bottom"
+msgstr ""
+
+#: app/Settings/Account.php:148
+msgid "Controls the bottom margin of the navigation in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:156
+msgid "Navigation Margin Right "
+msgstr ""
+
+#: app/Settings/Account.php:157
+msgid "Controls the right margin of the navigation in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:165
+msgid "Navigation Margin Left"
+msgstr ""
+
+#: app/Settings/Account.php:166
+msgid "Controls the left margin of the navigation in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:174
+msgid "Navigation Padding Top"
+msgstr ""
+
+#: app/Settings/Account.php:175
+msgid "Controls the top padding of the navigation in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:183
+msgid "Navigation Padding Bottom"
+msgstr ""
+
+#: app/Settings/Account.php:184
+msgid "Controls the bottom padding of the navigation in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:192
+msgid "Navigation Padding Right"
+msgstr ""
+
+#: app/Settings/Account.php:193
+msgid "Controls the right padding of the navigation in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:201
+msgid "Navigation Padding Left"
+msgstr ""
+
+#: app/Settings/Account.php:202
+msgid "Controls the left padding of the navigation in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:210
+msgid "Navigation Font Size"
+msgstr ""
+
+#: app/Settings/Account.php:211
+msgid "Controls the font size of the navigation links"
+msgstr ""
+
+#: app/Settings/Account.php:219
+msgid "Navigation Font Color"
+msgstr ""
+
+#: app/Settings/Account.php:220
+msgid "Controls the font color of the navigation links"
+msgstr ""
+
+#: app/Settings/Account.php:227
+msgid "Navigation Border Width"
+msgstr ""
+
+#: app/Settings/Account.php:228
+msgid "Controls the width of the border around the navigation links in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:236
+msgid "Navigation Border Color"
+msgstr ""
+
+#: app/Settings/Account.php:237
+msgid "Controls the border color color around the navigation links"
+msgstr ""
+
+#: app/Settings/Account.php:244
+msgid "Navigation border radius"
+msgstr ""
+
+#: app/Settings/Account.php:245
+msgid "Controls the radius of the border around the navigation links"
+msgstr ""
+
+#: app/Settings/Account.php:253
+msgid "Navigation link seperator"
+msgstr ""
+
+#: app/Settings/Account.php:254
+msgid "Controls the icon used to seperate links. Leave empty if none"
+msgstr ""
+
+#: app/Settings/Account.php:275
+msgid "Account Section Defaults"
+msgstr ""
+
+#: app/Settings/Account.php:282
+msgid "Section Title Font Size"
+msgstr ""
+
+#: app/Settings/Account.php:283
+msgid "Controls the font size of the section titles"
+msgstr ""
+
+#: app/Settings/Account.php:290
+msgid "Section Title Font Color"
+msgstr ""
+
+#: app/Settings/Account.php:291
+msgid "Controls the font color of the section titles"
+msgstr ""
+
+#: app/Settings/Account.php:298
+msgid "Section Title Alignment"
+msgstr ""
+
+#: app/Settings/Account.php:299
+msgid "Controls the alignment of the account section titles"
+msgstr ""
+
+#: app/Settings/Account.php:308
+msgid "Section Title Margin Top"
+msgstr ""
+
+#: app/Settings/Account.php:309
+msgid "Controls the top margin of the account section titles in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:317
+msgid "Section Title Margin Bottom"
+msgstr ""
+
+#: app/Settings/Account.php:318
+msgid "Controls the bottom margin of the account section titles in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:326
+msgid "Section Title Margin Right "
+msgstr ""
+
+#: app/Settings/Account.php:327
+msgid "Controls the right margin of the account section titles in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:335
+msgid "Section Title Margin Left"
+msgstr ""
+
+#: app/Settings/Account.php:336
+msgid "Controls the left margin of the account section titles in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:344
+msgid "Section Title Padding Top"
+msgstr ""
+
+#: app/Settings/Account.php:345
+msgid "Controls the top padding of the account section titles in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:353
+msgid "Section Title Padding Bottom"
+msgstr ""
+
+#: app/Settings/Account.php:354
+msgid "Controls the bottom padding of the account section titles in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:362
+msgid "Section Title Padding Right"
+msgstr ""
+
+#: app/Settings/Account.php:363
+msgid "Controls the right padding of the account section titles in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:371
+msgid "Section Title Padding Left"
+msgstr ""
+
+#: app/Settings/Account.php:372
+msgid "Controls the left padding of the account section titles in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:380
+msgid "Section Margin Top"
+msgstr ""
+
+#: app/Settings/Account.php:381
+msgid "Controls the top margin of the account section tiles in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:389
+msgid "Section Margin Bottom"
+msgstr ""
+
+#: app/Settings/Account.php:390
+msgid "Controls the bottom margin of the account section tiles in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:398
+msgid "Section Margin Right "
+msgstr ""
+
+#: app/Settings/Account.php:399
+msgid "Controls the right margin of the account section tiles in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:407
+msgid "Section Margin Left"
+msgstr ""
+
+#: app/Settings/Account.php:408
+msgid "Controls the left margin of the account section tiles in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:416
+msgid "Section Padding Top"
+msgstr ""
+
+#: app/Settings/Account.php:417
+msgid "Controls the top padding of the account section in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:425
+msgid "Section Padding Bottom"
+msgstr ""
+
+#: app/Settings/Account.php:426
+msgid "Controls the bottom padding of the account section tiles in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:434
+msgid "Section Padding Right"
+msgstr ""
+
+#: app/Settings/Account.php:435
+msgid "Controls the right padding of the account section tiles in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:443
+msgid "Section Padding Left"
+msgstr ""
+
+#: app/Settings/Account.php:444
+msgid "Controls the left padding of the account section tiles in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:452
+msgid "Section Border Width"
+msgstr ""
+
+#: app/Settings/Account.php:453
+msgid "Controls the width of the border around each section tile"
+msgstr ""
+
+#: app/Settings/Account.php:461
+msgid "Section Background Color"
+msgstr ""
+
+#: app/Settings/Account.php:462
+msgid "Controls the background color around each section tile"
+msgstr ""
+
+#: app/Settings/Account.php:469
+msgid "Section Border Color"
+msgstr ""
+
+#: app/Settings/Account.php:470
+msgid "Controls the border color color around each section tile"
+msgstr ""
+
+#: app/Settings/Account.php:477
+msgid "Section border radius"
+msgstr ""
+
+#: app/Settings/Account.php:478
+msgid "Controls the radius of the border around each section tile"
+msgstr ""
+
+#: app/Settings/Account.php:497
+msgid "My Courses Section"
+msgstr ""
+
+#: app/Settings/Account.php:505
+msgid "Courses Tile: Section title"
+msgstr ""
+
+#: app/Settings/Account.php:506
+msgid "Controls the section title of the account courses tile"
+msgstr ""
+
+#: app/Settings/Account.php:514
+msgid "Course section title Background Color"
+msgstr ""
+
+#: app/Settings/Account.php:515
+msgid "Controls the background color of the course section title"
+msgstr ""
+
+#: app/Settings/Account.php:537
+msgid "Course Items"
+msgstr ""
+
+#: app/Settings/Account.php:545
+msgid "Course item Margin Top"
+msgstr ""
+
+#: app/Settings/Account.php:546
+msgid "Controls the top margin of the course items in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:554
+msgid "Course item Margin Bottom"
+msgstr ""
+
+#: app/Settings/Account.php:555
+msgid "Controls the bottom margin of the course items in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:563
+msgid "Course item Margin Right "
+msgstr ""
+
+#: app/Settings/Account.php:564
+msgid "Controls the right margin of the course items in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:572
+msgid "Course item Margin Left"
+msgstr ""
+
+#: app/Settings/Account.php:573
+msgid "Controls the left margin of the course items in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:581
+msgid "Course item Padding Top"
+msgstr ""
+
+#: app/Settings/Account.php:582, app/Settings/Account.php:680
+msgid "Controls the top padding of the course items in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:590
+msgid "Course item Padding Bottom"
+msgstr ""
+
+#: app/Settings/Account.php:591
+msgid "Controls the bottom padding of the course items in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:599
+msgid "Course item Padding Right"
+msgstr ""
+
+#: app/Settings/Account.php:600
+msgid "Controls the right padding of the course items in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:608
+msgid "Course item Padding Left"
+msgstr ""
+
+#: app/Settings/Account.php:609
+msgid "Controls the left padding of the course items in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:617
+msgid "Course item Border Width"
+msgstr ""
+
+#: app/Settings/Account.php:618
+msgid "Controls the width of the border around each course item"
+msgstr ""
+
+#: app/Settings/Account.php:626
+msgid "Course item Border Color"
+msgstr ""
+
+#: app/Settings/Account.php:627
+msgid "Controls the border color color around each course item"
+msgstr ""
+
+#: app/Settings/Account.php:634
+msgid "Course item border radius"
+msgstr ""
+
+#: app/Settings/Account.php:635
+msgid "Controls the radius of the border around each course item"
+msgstr ""
+
+#: app/Settings/Account.php:643
+msgid "Course image Margin Top"
+msgstr ""
+
+#: app/Settings/Account.php:644
+msgid "Controls the top margin of the course image in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:652
+msgid "Course image Margin Bottom"
+msgstr ""
+
+#: app/Settings/Account.php:653
+msgid "Controls the bottom margin of the course image in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:661
+msgid "Course image Margin Right "
+msgstr ""
+
+#: app/Settings/Account.php:662
+msgid "Controls the right margin of the course image in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:670
+msgid "Course image Margin Left"
+msgstr ""
+
+#: app/Settings/Account.php:671
+msgid "Controls the left margin of the course image in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:679
+msgid "Course image Padding Top"
+msgstr ""
+
+#: app/Settings/Account.php:688
+msgid "Course image Padding Bottom"
+msgstr ""
+
+#: app/Settings/Account.php:689
+msgid "Controls the bottom padding of the course image in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:697
+msgid "Course image Padding Right"
+msgstr ""
+
+#: app/Settings/Account.php:698
+msgid "Controls the right padding of the course image in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:706
+msgid "Course image Padding Left"
+msgstr ""
+
+#: app/Settings/Account.php:707
+msgid "Controls the left padding of the course image in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:715
+msgid "Course image Border Width"
+msgstr ""
+
+#: app/Settings/Account.php:716
+msgid "Controls the width of the border around each course image"
+msgstr ""
+
+#: app/Settings/Account.php:724
+msgid "Course image Border Color"
+msgstr ""
+
+#: app/Settings/Account.php:725
+msgid "Controls the border color color around each course image"
+msgstr ""
+
+#: app/Settings/Account.php:732
+msgid "Course image border radius top left"
+msgstr ""
+
+#: app/Settings/Account.php:733
+msgid "Controls the top left radius of the border around the course image"
+msgstr ""
+
+#: app/Settings/Account.php:741
+msgid "Course image border radius top right"
+msgstr ""
+
+#: app/Settings/Account.php:742
+msgid "Controls the top right radius of the border around the course image"
+msgstr ""
+
+#: app/Settings/Account.php:750
+msgid "Course image border radius bottom left"
+msgstr ""
+
+#: app/Settings/Account.php:751
+msgid "Controls the bottom left radius of the border around the course image"
+msgstr ""
+
+#: app/Settings/Account.php:759
+msgid "Course image border radius bottom right"
+msgstr ""
+
+#: app/Settings/Account.php:760
+msgid "Controls the bottom rightradius of the border around the course image"
+msgstr ""
+
+#: app/Settings/Account.php:768
+msgid "Course image width dynamic"
+msgstr ""
+
+#: app/Settings/Account.php:769
+msgid "Set the image width to be automatically calculated"
+msgstr ""
+
+#: app/Settings/Account.php:777
+msgid "Course image width"
+msgstr ""
+
+#: app/Settings/Account.php:778
+msgid "Controls the width of the course image"
+msgstr ""
+
+#: app/Settings/Account.php:786
+msgid "Hide course enrollment status"
+msgstr ""
+
+#: app/Settings/Account.php:787
+msgid "Controls whether the enrollment status displays on the course."
+msgstr ""
+
+#: app/Settings/Account.php:795
+msgid "Course enrollment status Font Size"
+msgstr ""
+
+#: app/Settings/Account.php:796
+msgid "Controls the font size of the enrollment status"
+msgstr ""
+
+#: app/Settings/Account.php:804
+msgid "Hide course start date"
+msgstr ""
+
+#: app/Settings/Account.php:805
+msgid "Controls whether the start date displays on the course."
+msgstr ""
+
+#: app/Settings/Account.php:813
+msgid "Course start date Font Size"
+msgstr ""
+
+#: app/Settings/Account.php:814
+msgid "Controls the font size of the start date"
+msgstr ""
+
+#: app/Settings/Account.php:822
+msgid "Course title Font Size"
+msgstr ""
+
+#: app/Settings/Account.php:823
+msgid "Controls the font size of the course title"
+msgstr ""
+
+#: app/Settings/Account.php:831
+msgid "Course author Font Size"
+msgstr ""
+
+#: app/Settings/Account.php:832
+msgid "Controls the font size of the author"
+msgstr ""
+
+#: app/Settings/Account.php:840
+msgid "Course view button text"
+msgstr ""
+
+#: app/Settings/Account.php:841
+msgid "Controls the button text of the course"
+msgstr ""
+
+#: app/Settings/Account.php:849
+msgid "Course item tile shadow offset x"
+msgstr ""
+
+#: app/Settings/Account.php:850
+msgid "Controls the top shadow of each course item in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:858
+msgid "Course item tile shadow offset y"
+msgstr ""
+
+#: app/Settings/Account.php:859
+msgid "Controls the bottom shadow of each course item in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:867
+msgid "Course item tile shadow offset blur-radius"
+msgstr ""
+
+#: app/Settings/Account.php:868
+msgid "Controls the right shadow of each course item in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:876
+msgid "Course item tile shadow spread-radius"
+msgstr ""
+
+#: app/Settings/Account.php:877
+msgid "Controls the left shadow of each course item in pixels"
+msgstr ""
+
+#: app/Settings/Account.php:885
+msgid "Course item tile shadow color"
+msgstr ""
+
+#: app/Settings/Account.php:886, app/Settings/Course.php:547
+msgid "Controls the color of showdow of lesson preview tiles"
+msgstr ""
+
+#: app/Settings/Account.php:909
+msgid "My Certificates Section"
+msgstr ""
+
+#: app/Settings/Account.php:917
+msgid "Certificates Tile: Section title"
+msgstr ""
+
+#: app/Settings/Account.php:918
+msgid "Controls the section title of the account certificates tile"
+msgstr ""
+
+#: app/Settings/Account.php:926
+msgid "Certificate section title Background Color"
+msgstr ""
+
+#: app/Settings/Account.php:927
+msgid "Controls the background color of the certificates section title"
+msgstr ""
+
+#: app/Settings/Account.php:945
+msgid "My Achievements Section"
+msgstr ""
+
+#: app/Settings/Account.php:953
+msgid "Achievements Tile: Section title"
+msgstr ""
+
+#: app/Settings/Account.php:954
+msgid "Controls the section title of the account achievements tile"
+msgstr ""
+
+#: app/Settings/Account.php:962
+msgid "Achievement section title Background Color"
+msgstr ""
+
+#: app/Settings/Account.php:963
+msgid "Controls the background color of the achievements section title"
+msgstr ""
+
+#: app/Settings/Account.php:984
+msgid "My Memberships Section"
+msgstr ""
+
+#: app/Settings/Account.php:992
+msgid "Memberships Tile: Section title"
+msgstr ""
+
+#: app/Settings/Account.php:993
+msgid "Controls the section title of the account memberships tile"
+msgstr ""
+
+#: app/Settings/Account.php:1001
+msgid "Membership section title Background Color"
+msgstr ""
+
+#: app/Settings/Account.php:1002
+msgid "Controls the background color of the memberships section title"
+msgstr ""
+
+#: app/Settings/Advanced.php:10
+msgid "Advanced"
+msgstr ""
+
+#: app/Settings/Advanced.php:33
+msgid "Advanced Settings"
+msgstr ""
+
+#: app/Settings/Advanced.php:40
+msgid "Custom CSS"
+msgstr ""
+
+#: app/Settings/Advanced.php:41
+msgid "Enter custom CSS"
+msgstr ""
+
+#: app/Settings/Advanced.php:49
+msgid "Custom JavaScript (Header)"
+msgstr ""
+
+#: app/Settings/Advanced.php:50
+msgid "Enter custom JavaScript to be included in the site header"
+msgstr ""
+
+#: app/Settings/Advanced.php:57
+msgid "Custom JavaScript (Footer)"
+msgstr ""
+
+#: app/Settings/Advanced.php:58
+msgid "Enter custom JavaScript to be included in the site footer"
+msgstr ""
+
+#: app/Settings/Advanced.php:65
+msgid "Add Script Wrapper"
+msgstr ""
+
+#: app/Settings/Advanced.php:66
+msgid "Automatically wrap header and footer scripts in a &lt;script&gt; tag"
+msgstr ""
+
+#: app/Settings/Advanced.php:87
+msgid "License"
+msgstr ""
+
+#: app/Settings/Advanced.php:94
+msgid "Activation Key"
+msgstr ""
+
+#: app/Settings/Advanced.php:95
+msgid "Required for support and automated plugin updates. Located on your <a href=\"https://lifterlms.com/my-account/\" target=\"_blank\">LifterLMS Account Settings page</a>."
+msgstr ""
+
+#: app/Settings/Advanced.php:119
+msgid "Import and Export LaunchPad Configurations"
+msgstr ""
+
+#: app/Settings/Advanced.php:120
+msgid "Save your current settings and import settings from saved configurations."
+msgstr ""
+
+#: app/Settings/Advanced.php:125
+msgid "Export Current Settings"
+msgstr ""
+
+#: app/Settings/Advanced.php:128
+msgid "Generate Export"
+msgstr ""
+
+#: app/Settings/Advanced.php:132
+msgid "Import Saved Settings"
+msgstr ""
+
+#: app/Settings/Advanced.php:135
+msgid "Import Settings"
+msgstr ""
+
+#: app/Settings/BreadCrumbs.php:12
+msgid "Breadcrumbs"
+msgstr ""
+
+#: app/Settings/BreadCrumbs.php:31
+msgid "Breadcrumbs Settings"
+msgstr ""
+
+#: app/Settings/BreadCrumbs.php:38
+msgid "Enable site-wide breadcrumbs"
+msgstr ""
+
+#: app/Settings/BreadCrumbs.php:39
+msgid "Enable breadcrumbs across the entire site."
+msgstr ""
+
+#: app/Settings/BreadCrumbs.php:47
+msgid "Breadcrumb Background Color"
+msgstr ""
+
+#: app/Settings/BreadCrumbs.php:48
+msgid "Set the background color of the breadcrumb bar."
+msgstr ""
+
+#: app/Settings/BreadCrumbs.php:55
+msgid "Breadcrumb Font Color"
+msgstr ""
+
+#: app/Settings/BreadCrumbs.php:56
+msgid "Controls the text color of the breadcrumb items."
+msgstr ""
+
+#: app/Settings/BreadCrumbs.php:63
+msgid "Current Page Font Color"
+msgstr ""
+
+#: app/Settings/BreadCrumbs.php:64
+msgid "Controls the current page text color inside the breadcrumb."
+msgstr ""
+
+#: app/Settings/BreadCrumbs.php:71
+msgid "Separator Icon Color"
+msgstr ""
+
+#: app/Settings/BreadCrumbs.php:72
+msgid "Controls the color of the separator icon."
+msgstr ""
+
+#: app/Settings/BreadCrumbs.php:79
+msgid "Separator Icon"
+msgstr ""
+
+#: app/Settings/BreadCrumbs.php:80
+msgid "Icon used to seperate page titles"
+msgstr ""
+
+#: app/Settings/BreadCrumbs.php:88
+msgid "Home Title"
+msgstr ""
+
+#: app/Settings/BreadCrumbs.php:89
+msgid "Title used for home page"
+msgstr ""
+
+#: app/Settings/Checkout.php:14
+msgid "LifterLMS Checkout"
+msgstr ""
+
+#: app/Settings/Checkout.php:36
+msgid "LifterLMS Product Checkout Settings"
+msgstr ""
+
+#: app/Settings/Checkout.php:43
+msgid "Checkout form border color"
+msgstr ""
+
+#: app/Settings/Checkout.php:44
+msgid "Controls the color of the border on the checkout tile"
+msgstr ""
+
+#: app/Settings/Checkout.php:51
+msgid "Checkout form border width"
+msgstr ""
+
+#: app/Settings/Checkout.php:52
+msgid "Controls the width of border on the checkout tile"
+msgstr ""
+
+#: app/Settings/Checkout.php:60
+msgid "Checkout form top left border radius"
+msgstr ""
+
+#: app/Settings/Checkout.php:61
+msgid "Controls the radius of the top left border of the checkout tile in pixels"
+msgstr ""
+
+#: app/Settings/Checkout.php:69
+msgid "Checkout form top right border radius"
+msgstr ""
+
+#: app/Settings/Checkout.php:70
+msgid "Controls the radius of the top right border of the checkout tile in pixels"
+msgstr ""
+
+#: app/Settings/Checkout.php:78
+msgid "Checkout form bottom left border radius"
+msgstr ""
+
+#: app/Settings/Checkout.php:79, app/Settings/Checkout.php:88
+msgid "Controls the radius of the bottom right border of the checkout tile in pixels"
+msgstr ""
+
+#: app/Settings/Checkout.php:87
+msgid "Checkout form bottom right border radius"
+msgstr ""
+
+#: app/Settings/Checkout.php:96
+msgid "Checkout form title font color"
+msgstr ""
+
+#: app/Settings/Checkout.php:97
+msgid "Controls the color of the title on the checkout form"
+msgstr ""
+
+#: app/Settings/Checkout.php:104
+msgid "Checkout form title background color"
+msgstr ""
+
+#: app/Settings/Checkout.php:105
+msgid "Controls the background color of the checkout form title"
+msgstr ""
+
+#: app/Settings/Checkout.php:112
+msgid "Checkout title font size"
+msgstr ""
+
+#: app/Settings/Checkout.php:113
+msgid "Controls the font size of the checkout form tile"
+msgstr ""
+
+#: app/Settings/Course.php:17
+msgid "LifterLMS Course"
+msgstr ""
+
+#: app/Settings/Course.php:42
+msgid "LifterLMS Course Settings"
+msgstr ""
+
+#: app/Settings/Course.php:60
+msgid "Course Title"
+msgstr ""
+
+#: app/Settings/Course.php:68, app/Settings/ProductArchive.php:344, app/Settings/ProductArchive.php:425
+msgid "Font Size"
+msgstr ""
+
+#: app/Settings/Course.php:69
+msgid "The font size of the course title"
+msgstr ""
+
+#: app/Settings/Course.php:77, app/Settings/Footer.php:61, app/Settings/Footer.php:156, app/Settings/LinksAndButtons.php:78, app/Settings/LinksAndButtons.php:173, app/Settings/ProductArchive.php:353, app/Settings/ProductArchive.php:434
+msgid "Font Color"
+msgstr ""
+
+#: app/Settings/Course.php:78
+msgid "Controls the font color of course title"
+msgstr ""
+
+#: app/Settings/Course.php:85
+msgid "Course Title Font Weight"
+msgstr ""
+
+#: app/Settings/Course.php:86
+msgid "Select a font weight for the course title"
+msgstr ""
+
+#: app/Settings/Course.php:109
+msgid "Course Image"
+msgstr ""
+
+#: app/Settings/Course.php:117
+msgid "Hide featured image on course page"
+msgstr ""
+
+#: app/Settings/Course.php:118
+msgid "Controls whether the featured image displays on the course page."
+msgstr ""
+
+#: app/Settings/Course.php:137
+msgid "Instructors"
+msgstr ""
+
+#: app/Settings/Course.php:145
+msgid "Area Border Color"
+msgstr ""
+
+#: app/Settings/Course.php:146
+msgid "Controls the border highlight on course instructors elements"
+msgstr ""
+
+#: app/Settings/Course.php:153
+msgid "Instructor Name Font Size"
+msgstr ""
+
+#: app/Settings/Course.php:154
+msgid "The font size of the instructor names"
+msgstr ""
+
+#: app/Settings/Course.php:162
+msgid "Instructor Name Font Color"
+msgstr ""
+
+#: app/Settings/Course.php:163
+msgid "The font color of the instructor names"
+msgstr ""
+
+#: app/Settings/Course.php:170
+msgid "Instructor Label Font Size"
+msgstr ""
+
+#: app/Settings/Course.php:171
+msgid "The font size of the instructor labels"
+msgstr ""
+
+#: app/Settings/Course.php:179
+msgid "Instructor Label Font Color"
+msgstr ""
+
+#: app/Settings/Course.php:180
+msgid "The font color of the instructor labels"
+msgstr ""
+
+#: app/Settings/Course.php:201
+msgid "Course Progress Bar"
+msgstr ""
+
+#: app/Settings/Course.php:210
+msgid "Course progress bar Background Color"
+msgstr ""
+
+#: app/Settings/Course.php:211
+msgid "Controls the background color of the course progress bar"
+msgstr ""
+
+#: app/Settings/Course.php:218
+msgid "Course progress bar completion % Background Color"
+msgstr ""
+
+#: app/Settings/Course.php:219
+msgid "Controls the background color of the completion % course progress bar"
+msgstr ""
+
+#: app/Settings/Course.php:237
+msgid "Course Meta Information"
+msgstr ""
+
+#: app/Settings/Course.php:245
+msgid "Meta Title Font Size"
+msgstr ""
+
+#: app/Settings/Course.php:246, app/Settings/Course.php:295
+msgid "The font size of the course length"
+msgstr ""
+
+#: app/Settings/Course.php:254
+msgid "Meta Title Margin Top"
+msgstr ""
+
+#: app/Settings/Course.php:262
+msgid "Meta Title Margin Bottom"
+msgstr ""
+
+#: app/Settings/Course.php:270
+msgid "Meta Title Margin Left"
+msgstr ""
+
+#: app/Settings/Course.php:278
+msgid "Meta Title Margin Right"
+msgstr ""
+
+#: app/Settings/Course.php:286
+msgid "Meta Title Font Color"
+msgstr ""
+
+#: app/Settings/Course.php:287, app/Settings/Course.php:304
+msgid "Controls the font color of course length"
+msgstr ""
+
+#: app/Settings/Course.php:294
+msgid "Meta Information Font Size"
+msgstr ""
+
+#: app/Settings/Course.php:303
+msgid "Meta Information Font Color"
+msgstr ""
+
+#: app/Settings/Course.php:324
+msgid "Course Syllabus"
+msgstr ""
+
+#: app/Settings/Course.php:332
+msgid "Title Text Alignment"
+msgstr ""
+
+#: app/Settings/Course.php:333
+msgid "Controls the alignment of course syllabus titles"
+msgstr ""
+
+#: app/Settings/Course.php:342, app/Settings/Course.php:554, app/Settings/PricingTables.php:154
+msgid "Title Font Size"
+msgstr ""
+
+#: app/Settings/Course.php:343
+msgid "The font size of the course syllabus titles"
+msgstr ""
+
+#: app/Settings/Course.php:351, app/Settings/Course.php:563, app/Settings/PricingTables.php:148
+msgid "Title Font Color"
+msgstr ""
+
+#: app/Settings/Course.php:352
+msgid "Controls the font color of course syllabus titles"
+msgstr ""
+
+#: app/Settings/Course.php:371
+msgid "Lesson Preview Tiles"
+msgstr ""
+
+#: app/Settings/Course.php:379, app/Settings/ProductArchive.php:272, app/Settings/ProductArchive.php:369
+msgid "Margin Top"
+msgstr ""
+
+#: app/Settings/Course.php:380
+msgid "Controls the top margin of lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:388, app/Settings/ProductArchive.php:281, app/Settings/ProductArchive.php:378
+msgid "Margin Bottom"
+msgstr ""
+
+#: app/Settings/Course.php:389
+msgid "Controls the bottom margin of lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:397, app/Settings/ProductArchive.php:290, app/Settings/ProductArchive.php:387
+msgid "Margin Right"
+msgstr ""
+
+#: app/Settings/Course.php:398
+msgid "Controls the right margin of lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:406, app/Settings/ProductArchive.php:299, app/Settings/ProductArchive.php:396
+msgid "Margin Left"
+msgstr ""
+
+#: app/Settings/Course.php:407
+msgid "Controls the left margin of lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:415
+msgid "Tile Width"
+msgstr ""
+
+#: app/Settings/Course.php:416
+msgid "Controls the width of the lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:424, app/Settings/Footer.php:53, app/Settings/Footer.php:148, app/Settings/Header.php:425, app/Settings/LinksAndButtons.php:70, app/Settings/LinksAndButtons.php:165, app/Settings/ProductArchive.php:74
+msgid "Background Color"
+msgstr ""
+
+#: app/Settings/Course.php:425
+msgid "Controls the background color of the lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:432, app/Settings/ProductArchive.php:98, app/Settings/ProductArchive.php:308
+msgid "Border Width"
+msgstr ""
+
+#: app/Settings/Course.php:433
+msgid "Controls the width of the lesson preview tile border"
+msgstr ""
+
+#: app/Settings/Course.php:441, app/Settings/LinksAndButtons.php:86, app/Settings/LinksAndButtons.php:181, app/Settings/PricingTables.php:118, app/Settings/ProductArchive.php:90, app/Settings/ProductArchive.php:317
+msgid "Border Color"
+msgstr ""
+
+#: app/Settings/Course.php:442
+msgid "Controls the border color of the lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:449
+msgid "Background Color on Hover"
+msgstr ""
+
+#: app/Settings/Course.php:450
+msgid "Controls the background color of the lesson preview tile on hover"
+msgstr ""
+
+#: app/Settings/Course.php:457
+msgid "Border Width on Hover"
+msgstr ""
+
+#: app/Settings/Course.php:458
+msgid "Controls the width of the lesson preview tile border on hover"
+msgstr ""
+
+#: app/Settings/Course.php:466
+msgid "Border Color on Hover"
+msgstr ""
+
+#: app/Settings/Course.php:467
+msgid "Controls the border color of the lesson preview tile on hover"
+msgstr ""
+
+#: app/Settings/Course.php:474, app/Settings/Footer.php:93, app/Settings/Footer.php:180, app/Settings/Header.php:329, app/Settings/LinksAndButtons.php:118, app/Settings/LinksAndButtons.php:213, app/Settings/ProductArchive.php:116, app/Settings/ProductArchive.php:236, app/Settings/ProductArchive.php:442
+msgid "Padding Top"
+msgstr ""
+
+#: app/Settings/Course.php:475
+msgid "Controls the top padding of lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:483, app/Settings/Footer.php:102, app/Settings/Footer.php:189, app/Settings/Header.php:338, app/Settings/LinksAndButtons.php:127, app/Settings/LinksAndButtons.php:222, app/Settings/ProductArchive.php:125, app/Settings/ProductArchive.php:245, app/Settings/ProductArchive.php:451
+msgid "Padding Bottom"
+msgstr ""
+
+#: app/Settings/Course.php:484
+msgid "Controls the bottom padding of lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:492, app/Settings/Footer.php:111, app/Settings/Footer.php:198, app/Settings/Header.php:347, app/Settings/LinksAndButtons.php:136, app/Settings/LinksAndButtons.php:231, app/Settings/ProductArchive.php:134, app/Settings/ProductArchive.php:254, app/Settings/ProductArchive.php:460
+msgid "Padding Right"
+msgstr ""
+
+#: app/Settings/Course.php:493
+msgid "Controls the right padding of lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:501, app/Settings/Footer.php:120, app/Settings/Footer.php:207, app/Settings/Header.php:356, app/Settings/LinksAndButtons.php:145, app/Settings/LinksAndButtons.php:240, app/Settings/ProductArchive.php:143, app/Settings/ProductArchive.php:263, app/Settings/ProductArchive.php:469
+msgid "Padding Left"
+msgstr ""
+
+#: app/Settings/Course.php:502
+msgid "Controls the left padding of lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:510, app/Settings/ProductArchive.php:152
+msgid "Shadow Offset X"
+msgstr ""
+
+#: app/Settings/Course.php:511
+msgid "Controls the top shadow of lesson preview tiles in pixels"
+msgstr ""
+
+#: app/Settings/Course.php:519, app/Settings/ProductArchive.php:161
+msgid "Shadow Offset Y"
+msgstr ""
+
+#: app/Settings/Course.php:520
+msgid "Controls the bottom shadow of lesson preview tiles in pixels"
+msgstr ""
+
+#: app/Settings/Course.php:528, app/Settings/ProductArchive.php:170
+msgid "Shadow Offset Blur"
+msgstr ""
+
+#: app/Settings/Course.php:529
+msgid "Controls the right shadow of lesson preview tiles in pixels"
+msgstr ""
+
+#: app/Settings/Course.php:537, app/Settings/ProductArchive.php:179
+msgid "Shadow Spread"
+msgstr ""
+
+#: app/Settings/Course.php:538
+msgid "Controls the left shadow of lesson preview tiles in pixels"
+msgstr ""
+
+#: app/Settings/Course.php:546, app/Settings/ProductArchive.php:188
+msgid "Shadow Color"
+msgstr ""
+
+#: app/Settings/Course.php:555
+msgid "Controls the font size of the lesson title in the lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:564
+msgid "Controls the font color of the lesson title in the lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:571
+msgid "Title Margin Top"
+msgstr ""
+
+#: app/Settings/Course.php:572
+msgid "Controls the top margin of lesson preview title"
+msgstr ""
+
+#: app/Settings/Course.php:580
+msgid "Title Margin Bottom"
+msgstr ""
+
+#: app/Settings/Course.php:581
+msgid "Controls the bottom margin of lesson preview title"
+msgstr ""
+
+#: app/Settings/Course.php:589
+msgid "Title Margin Right"
+msgstr ""
+
+#: app/Settings/Course.php:590
+msgid "Controls the right margin of lesson preview title"
+msgstr ""
+
+#: app/Settings/Course.php:598
+msgid "Title Margin Left"
+msgstr ""
+
+#: app/Settings/Course.php:599
+msgid "Controls the left margin of lesson preview title"
+msgstr ""
+
+#: app/Settings/Course.php:607
+msgid "Hide Count"
+msgstr ""
+
+#: app/Settings/Course.php:608
+msgid "Controls whether the lesson count displays in the lesson preview tile."
+msgstr ""
+
+#: app/Settings/Course.php:616
+msgid "Count Font Size"
+msgstr ""
+
+#: app/Settings/Course.php:617
+msgid "Controls the font size of the lesson count in the lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:625
+msgid "Count Font Color"
+msgstr ""
+
+#: app/Settings/Course.php:626
+msgid "Controls the font color of the lesson count in the lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:633
+msgid "Excerpt Font Size"
+msgstr ""
+
+#: app/Settings/Course.php:634
+msgid "Controls the font size of the excerpt in the lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:642
+msgid "Excerpt Font Color"
+msgstr ""
+
+#: app/Settings/Course.php:643
+msgid "Controls the font color of the excerpt in the lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:650
+msgid "Excerpt Bottom Margin"
+msgstr ""
+
+#: app/Settings/Course.php:651
+msgid "Controls the bottom margin of the lesson preview excerpt"
+msgstr ""
+
+#: app/Settings/Course.php:659, app/Settings/ProductArchive.php:107
+msgid "Border Radius"
+msgstr ""
+
+#: app/Settings/Course.php:660
+msgid "Controls the border radius of the lesson preview tile"
+msgstr ""
+
+#: app/Settings/Course.php:668
+msgid "Disabled Lesson Background Color"
+msgstr ""
+
+#: app/Settings/Course.php:669
+msgid "Controls the background color of disabled lesson preview"
+msgstr ""
+
+#: app/Settings/Course.php:676
+msgid "Disabled Lesson Background Color on Hover"
+msgstr ""
+
+#: app/Settings/Course.php:677
+msgid "Controls the background color of disabled lesson preview on hover"
+msgstr ""
+
+#: app/Settings/Course.php:703, app/Settings/Course.php:711
+msgid "Lesson Complete Icon"
+msgstr ""
+
+#: app/Settings/Course.php:712
+msgid "Controls the icon displayed when a lesson is complete"
+msgstr ""
+
+#: app/Settings/Course.php:722
+msgid "Icon Margin Top"
+msgstr ""
+
+#: app/Settings/Course.php:723
+msgid "Controls the top margin of lesson preview complete icon"
+msgstr ""
+
+#: app/Settings/Course.php:731
+msgid "Icon Margin Bottom"
+msgstr ""
+
+#: app/Settings/Course.php:732
+msgid "Controls the bottom margin of lesson preview complete icon"
+msgstr ""
+
+#: app/Settings/Course.php:740
+msgid "Icon Margin Right"
+msgstr ""
+
+#: app/Settings/Course.php:741
+msgid "Controls the right margin of lesson preview complete icon"
+msgstr ""
+
+#: app/Settings/Course.php:749
+msgid "Icon Margin Left"
+msgstr ""
+
+#: app/Settings/Course.php:750
+msgid "Controls the left margin of lesson preview complete icon"
+msgstr ""
+
+#: app/Settings/Course.php:758
+msgid "Icon Padding Top"
+msgstr ""
+
+#: app/Settings/Course.php:759
+msgid "Controls the top padding of lesson preview complete icon"
+msgstr ""
+
+#: app/Settings/Course.php:767
+msgid "Icon Padding Bottom"
+msgstr ""
+
+#: app/Settings/Course.php:768
+msgid "Controls the bottom padding of lesson preview complete icon"
+msgstr ""
+
+#: app/Settings/Course.php:776
+msgid "Icon Padding Right"
+msgstr ""
+
+#: app/Settings/Course.php:777
+msgid "Controls the right padding of lesson preview complete icon"
+msgstr ""
+
+#: app/Settings/Course.php:785
+msgid "Icon Padding Left"
+msgstr ""
+
+#: app/Settings/Course.php:786
+msgid "Controls the left padding of lesson preview complete icon"
+msgstr ""
+
+#: app/Settings/Course.php:794
+msgid "Lesson Complete Placeholder Icon Color"
+msgstr ""
+
+#: app/Settings/Course.php:795
+msgid "Controls the color of the lesson complete icon when the lesson is not completed"
+msgstr ""
+
+#: app/Settings/Course.php:802
+msgid "Icon Color"
+msgstr ""
+
+#: app/Settings/Course.php:803
+msgid "Controls the color of the lesson complete icon"
+msgstr ""
+
+#: app/Settings/Course.php:810
+msgid "Icon Size"
+msgstr ""
+
+#: app/Settings/Course.php:811
+msgid "Controls the font size of the lesson complete icon in pixels"
+msgstr ""
+
+#: app/Settings/Course.php:819
+msgid "Icon Right Border Size"
+msgstr ""
+
+#: app/Settings/Course.php:820
+msgid "Controls the width for the right border of the lesson complete icon"
+msgstr ""
+
+#: app/Settings/Course.php:828
+msgid "Icon Right Border Color"
+msgstr ""
+
+#: app/Settings/Course.php:829
+msgid "Controls the color for the right border of the lesson complete icon"
+msgstr ""
+
+#: app/Settings/Course.php:836
+msgid "Icon Left Border Size"
+msgstr ""
+
+#: app/Settings/Course.php:837
+msgid "Controls the width for the left border of the lesson complete icon"
+msgstr ""
+
+#: app/Settings/Course.php:845
+msgid "Icon Left Border Color"
+msgstr ""
+
+#: app/Settings/Course.php:846
+msgid "Controls the color for the left border of the lesson complete icon"
+msgstr ""
+
+#: app/Settings/Footer.php:13
+msgid "Footer"
+msgstr ""
+
+#: app/Settings/Footer.php:32
+msgid "Footer Settings"
+msgstr ""
+
+#: app/Settings/Footer.php:45
+msgid "Footer Styling"
+msgstr ""
+
+#: app/Settings/Footer.php:54
+msgid "Controls the background color of the footer."
+msgstr ""
+
+#: app/Settings/Footer.php:62
+msgid "Controls the text color in the site footer"
+msgstr ""
+
+#: app/Settings/Footer.php:69
+msgid "Widget Title Font Color"
+msgstr ""
+
+#: app/Settings/Footer.php:70
+msgid "Controls the text color of footer widget titles"
+msgstr ""
+
+#: app/Settings/Footer.php:77, app/Settings/Footer.php:164
+msgid "Link Color"
+msgstr ""
+
+#: app/Settings/Footer.php:78, app/Settings/Footer.php:165
+msgid "Controls the text color of links in the site footer"
+msgstr ""
+
+#: app/Settings/Footer.php:85, app/Settings/Footer.php:172
+msgid "Link Hover Color"
+msgstr ""
+
+#: app/Settings/Footer.php:86, app/Settings/Footer.php:173
+msgid "Controls the text color of hovered links in the site footer"
+msgstr ""
+
+#: app/Settings/Footer.php:94
+msgid "Controls the top padding of the footer in pixels"
+msgstr ""
+
+#: app/Settings/Footer.php:103
+msgid "Controls the bottom padding of the footer in pixels"
+msgstr ""
+
+#: app/Settings/Footer.php:112
+msgid "Controls the right padding of the footer in pixels"
+msgstr ""
+
+#: app/Settings/Footer.php:121
+msgid "Controls the left padding of the footer in pixels"
+msgstr ""
+
+#: app/Settings/Footer.php:140
+msgid "Site Info Styling"
+msgstr ""
+
+#: app/Settings/Footer.php:149
+msgid "Controls the background color of the site info bar."
+msgstr ""
+
+#: app/Settings/Footer.php:157
+msgid "Controls the text color in the site info area"
+msgstr ""
+
+#: app/Settings/Footer.php:181
+msgid "Controls the top padding of the site info bar in pixels"
+msgstr ""
+
+#: app/Settings/Footer.php:190
+msgid "Controls the bottom padding of the site info bar in pixels"
+msgstr ""
+
+#: app/Settings/Footer.php:199
+msgid "Controls the right padding of the site info bar in pixels"
+msgstr ""
+
+#: app/Settings/Footer.php:208
+msgid "Controls the left padding of the site info bar in pixels"
+msgstr ""
+
+#: app/Settings/Footer.php:216
+msgid "Left Side Text"
+msgstr ""
+
+#: app/Settings/Footer.php:217
+msgid "Enter text to display on the left side of the site info bar"
+msgstr ""
+
+#: app/Settings/Footer.php:226
+msgid "Right Side Text"
+msgstr ""
+
+#: app/Settings/Footer.php:227
+msgid "Enter text to display on the right side of the site info bar"
+msgstr ""
+
+#: app/Settings/Header.php:12
+msgid "Header"
+msgstr ""
+
+#: app/Settings/Header.php:33
+msgid "Site Header Settings"
+msgstr ""
+
+#: app/Settings/Header.php:53
+msgid "Site Branding"
+msgstr ""
+
+#: app/Settings/Header.php:61
+msgid "Logo"
+msgstr ""
+
+#: app/Settings/Header.php:62
+msgid "Image to be displayed as logo"
+msgstr ""
+
+#: app/Settings/Header.php:69
+msgid "Logo Width"
+msgstr ""
+
+#: app/Settings/Header.php:70
+msgid "Width of the uploaded logo in px"
+msgstr ""
+
+#: app/Settings/Header.php:77
+msgid "Tagline Display"
+msgstr ""
+
+#: app/Settings/Header.php:78
+msgid "Display the site tagline below the logo"
+msgstr ""
+
+#: app/Settings/Header.php:85
+msgid "Site Title Font Color"
+msgstr ""
+
+#: app/Settings/Header.php:86
+msgid "Controls the text color of the site title."
+msgstr ""
+
+#: app/Settings/Header.php:92
+msgid "Site Description Font Color"
+msgstr ""
+
+#: app/Settings/Header.php:93
+msgid "Controls the text color of the site description."
+msgstr ""
+
+#: app/Settings/Header.php:111
+msgid "Main Menu Settings"
+msgstr ""
+
+#: app/Settings/Header.php:119
+msgid "Main Menu Font Color"
+msgstr ""
+
+#: app/Settings/Header.php:120
+msgid "Controls the text color of the main menu items"
+msgstr ""
+
+#: app/Settings/Header.php:127
+msgid "Main Menu Font Hover Color"
+msgstr ""
+
+#: app/Settings/Header.php:128
+msgid "Controls the text color of the main menu items on hover"
+msgstr ""
+
+#: app/Settings/Header.php:135
+msgid "Main Submenu Font Color"
+msgstr ""
+
+#: app/Settings/Header.php:136
+msgid "Controls the text color of the main submenu items"
+msgstr ""
+
+#: app/Settings/Header.php:143
+msgid "Main Submenu Font Hover Color"
+msgstr ""
+
+#: app/Settings/Header.php:144
+msgid "Controls the text color of the main submenu items on hover"
+msgstr ""
+
+#: app/Settings/Header.php:151
+msgid "Main Submenu Background Color"
+msgstr ""
+
+#: app/Settings/Header.php:152
+msgid "Controls the background color of the main submenu items"
+msgstr ""
+
+#: app/Settings/Header.php:159
+msgid "Main Submenu Background Hover Color"
+msgstr ""
+
+#: app/Settings/Header.php:160
+msgid "Controls the background color of the main submenu items on hover"
+msgstr ""
+
+#: app/Settings/Header.php:167
+msgid "Main Submenu Border Color"
+msgstr ""
+
+#: app/Settings/Header.php:168
+msgid "Controls the border color of the main submenu items"
+msgstr ""
+
+#: app/Settings/Header.php:175
+msgid "Main Submenu Border Width"
+msgstr ""
+
+#: app/Settings/Header.php:176
+msgid "Controls the border width of the main submenu items on hover"
+msgstr ""
+
+#: app/Settings/Header.php:183
+msgid "Main Menu Font Size"
+msgstr ""
+
+#: app/Settings/Header.php:184, app/Settings/Header.php:233, app/Settings/Typography.php:146, app/Settings/Typography.php:155
+msgid "In Pixels, default is 14"
+msgstr ""
+
+#: app/Settings/Header.php:192
+msgid "Main Menu Font Weight"
+msgstr ""
+
+#: app/Settings/Header.php:193
+msgid "Select a font weight for the main menu text"
+msgstr ""
+
+#: app/Settings/Header.php:202
+msgid "Distance Between Menu Items"
+msgstr ""
+
+#: app/Settings/Header.php:203
+msgid "Controls the distance between each item in the main menu in pixels."
+msgstr ""
+
+#: app/Settings/Header.php:224
+msgid "Mobile Menu Settings"
+msgstr ""
+
+#: app/Settings/Header.php:232
+msgid "Mobile Menu Font Size"
+msgstr ""
+
+#: app/Settings/Header.php:241
+msgid "Mobile Menu Font Color"
+msgstr ""
+
+#: app/Settings/Header.php:242
+msgid "Controls the text color of the mobile menu items"
+msgstr ""
+
+#: app/Settings/Header.php:249
+msgid "Mobile Menu Background Color"
+msgstr ""
+
+#: app/Settings/Header.php:250
+msgid "Controls the background color of the mobile menu items"
+msgstr ""
+
+#: app/Settings/Header.php:272
+msgid "Header Layout"
+msgstr ""
+
+#: app/Settings/Header.php:280, app/Settings/Layout.php:13
+msgid "Layout"
+msgstr ""
+
+#: app/Settings/Header.php:281
+msgid "Select the layout for your header area."
+msgstr ""
+
+#: app/Settings/Header.php:292
+msgid "Content Widths"
+msgstr ""
+
+#: app/Settings/Header.php:293, app/Settings/Typography.php:49
+msgid "Select a font family for body text"
+msgstr ""
+
+#: app/Settings/Header.php:299
+msgid "Logo 25% / Navigation 75%"
+msgstr ""
+
+#: app/Settings/Header.php:300
+msgid "Logo 33.333% / Navigation 66.666%"
+msgstr ""
+
+#: app/Settings/Header.php:301
+msgid "Logo 41.666% / Navigation 58.333%"
+msgstr ""
+
+#: app/Settings/Header.php:302
+msgid "Logo 50% / Navigation 50%"
+msgstr ""
+
+#: app/Settings/Header.php:303
+msgid "Logo 58.333% / Navigation 41.666%"
+msgstr ""
+
+#: app/Settings/Header.php:304
+msgid "Logo 66.666% / Navigation 33.333%"
+msgstr ""
+
+#: app/Settings/Header.php:305
+msgid "Logo 75% / Navigation 25%"
+msgstr ""
+
+#: app/Settings/Header.php:306
+msgid "Logo 100% / Navigation 100%"
+msgstr ""
+
+#: app/Settings/Header.php:311
+msgid "Logo Distance from Top"
+msgstr ""
+
+#: app/Settings/Header.php:312
+msgid "Controls the distance between the top of the header and the logo in pixels"
+msgstr ""
+
+#: app/Settings/Header.php:320
+msgid "Menu Distance from Top"
+msgstr ""
+
+#: app/Settings/Header.php:321
+msgid "Controls the distance between the top of the header and the menu in pixels"
+msgstr ""
+
+#: app/Settings/Header.php:330
+msgid "Controls the top padding of the header in pixels"
+msgstr ""
+
+#: app/Settings/Header.php:339
+msgid "Controls the bottom padding of the header in pixels"
+msgstr ""
+
+#: app/Settings/Header.php:348
+msgid "Controls the right padding of the header in pixels"
+msgstr ""
+
+#: app/Settings/Header.php:357
+msgid "Controls the left padding of the header in pixels"
+msgstr ""
+
+#: app/Settings/Header.php:379
+msgid "Site Header Background"
+msgstr ""
+
+#: app/Settings/Header.php:387
+msgid "Background Image"
+msgstr ""
+
+#: app/Settings/Header.php:388
+msgid "Background image for header area."
+msgstr ""
+
+#: app/Settings/Header.php:396
+msgid "Background Image Horizontal Positioning"
+msgstr ""
+
+#: app/Settings/Header.php:397
+msgid "Controls the horizontal alignment of the background image"
+msgstr ""
+
+#: app/Settings/Header.php:406
+msgid "Background Image Vertical Positioning"
+msgstr ""
+
+#: app/Settings/Header.php:407
+msgid "Controls the vertical alignment of the background image"
+msgstr ""
+
+#: app/Settings/Header.php:416
+msgid "Repeating Background Image"
+msgstr ""
+
+#: app/Settings/Header.php:417
+msgid "If checked, background image will repeat infinitely to cover the available space"
+msgstr ""
+
+#: app/Settings/Header.php:426
+msgid "Controls the background color of the header."
+msgstr ""
+
+#: app/Settings/Layout.php:35
+msgid "Maximum site width"
+msgstr ""
+
+#: app/Settings/Layout.php:36
+msgid "In Pixels, default is 1170"
+msgstr ""
+
+#: app/Settings/Layout.php:44
+msgid "Content top margin"
+msgstr ""
+
+#: app/Settings/Layout.php:45
+msgid "In Pixels, default is 40px"
+msgstr ""
+
+#: app/Settings/Layout.php:53
+msgid "Content bottom margin"
+msgstr ""
+
+#: app/Settings/Layout.php:54
+msgid "In Pixels, default is 105px"
+msgstr ""
+
+#: app/Settings/Layout.php:62
+msgid "Sidebar Width"
+msgstr ""
+
+#: app/Settings/Layout.php:63
+msgid "Determines the width of sidebars"
+msgstr ""
+
+#: app/Settings/Layout.php:78
+msgid "Select the default layout for your theme. This will apply to all content on your website except where overriden by settings on the post or by other defaults below."
+msgstr ""
+
+#: app/Settings/Layout.php:89
+msgid "Default Blog Layout"
+msgstr ""
+
+#: app/Settings/Layout.php:90
+msgid "Select the default layout for your blog. This layout will be the default for blog posts and blog archives."
+msgstr ""
+
+#: app/Settings/Layout.php:101
+msgid "Default Course Layout"
+msgstr ""
+
+#: app/Settings/Layout.php:102
+msgid "Select the default layout for your courses. This layout will be the default for courses and course archives."
+msgstr ""
+
+#: app/Settings/Layout.php:113
+msgid "Default Membership Layout"
+msgstr ""
+
+#: app/Settings/Layout.php:114
+msgid "Select the default layout for your memberships. This layout will be the default for memberships and membership archives."
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:12
+msgid "Links and Buttons"
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:31
+msgid "Link and Button Settings"
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:38
+msgid "Link Styling"
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:46
+msgid "Primary Link Color"
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:47
+msgid "Controls the color of primary links."
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:54
+msgid "Primary Link Hover Color"
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:55
+msgid "Controls the color of primary links on hover."
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:62
+msgid "Primary Button Styling"
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:71, app/Settings/LinksAndButtons.php:166
+msgid "Controls the color of primary buttons."
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:79, app/Settings/LinksAndButtons.php:174
+msgid "Controls the color of primary button text."
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:87, app/Settings/LinksAndButtons.php:182
+msgid "Controls the color of primary button border."
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:94, app/Settings/LinksAndButtons.php:189
+msgid "Background Hover Color"
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:95, app/Settings/LinksAndButtons.php:190
+msgid "Controls the color of primary buttons on hover."
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:102, app/Settings/LinksAndButtons.php:197, app/Settings/ProductArchive.php:361
+msgid "Font Hover Color"
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:103, app/Settings/LinksAndButtons.php:198
+msgid "Controls the color of primary button text on hover."
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:110, app/Settings/LinksAndButtons.php:205
+msgid "Border Hover Color"
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:111, app/Settings/LinksAndButtons.php:206
+msgid "Controls the color of primary button border on hover."
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:119, app/Settings/LinksAndButtons.php:214
+msgid "Controls the top padding of the button in pixels"
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:128, app/Settings/LinksAndButtons.php:223
+msgid "Controls the bottom padding of the button in pixels"
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:137, app/Settings/LinksAndButtons.php:232
+msgid "Controls the right padding of the button in pixels"
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:146, app/Settings/LinksAndButtons.php:241
+msgid "Controls the left padding of the button in pixels"
+msgstr ""
+
+#: app/Settings/LinksAndButtons.php:157
+msgid "Secondary Button Styling"
+msgstr ""
+
+#: app/Settings/PricingTables.php:14
+msgid "LifterLMS Pricing Tables"
+msgstr ""
+
+#: app/Settings/PricingTables.php:36
+msgid "LifterLMS Pricing Table Settings"
+msgstr ""
+
+#: app/Settings/PricingTables.php:38
+msgid "Customize the style of LifterLMS access plan pricing tables."
+msgstr ""
+
+#: app/Settings/PricingTables.php:54
+msgid "Access Plan Styles"
+msgstr ""
+
+#: app/Settings/PricingTables.php:55
+msgid "Customize the basic styles of access plans"
+msgstr ""
+
+#: app/Settings/PricingTables.php:62
+msgid "Access Plan Background Color"
+msgstr ""
+
+#: app/Settings/PricingTables.php:69
+msgid "Access Plan Text Color"
+msgstr ""
+
+#: app/Settings/PricingTables.php:86
+msgid "Featured Access Plan Styles"
+msgstr ""
+
+#: app/Settings/PricingTables.php:88
+msgid "Customize the styles of featured access plans"
+msgstr ""
+
+#: app/Settings/PricingTables.php:93
+msgid "Featured Plan Text"
+msgstr ""
+
+#: app/Settings/PricingTables.php:94
+msgid "Customize the default displayed above the featured plan"
+msgstr ""
+
+#: app/Settings/PricingTables.php:97, app/ThemeActions/AccessPlans.php:20
+msgid "FEATURED"
+msgstr ""
+
+#: app/Settings/PricingTables.php:100
+msgid "Featured Text Background Color"
+msgstr ""
+
+#: app/Settings/PricingTables.php:106
+msgid "Featured Text Font Color"
+msgstr ""
+
+#: app/Settings/PricingTables.php:112
+msgid "Border Size"
+msgstr ""
+
+#: app/Settings/PricingTables.php:135
+msgid "Customize the styles of access plan titles"
+msgstr ""
+
+#: app/Settings/PricingTables.php:136
+msgid "Access Plan Titles"
+msgstr ""
+
+#: app/Settings/PricingTables.php:142
+msgid "Title Background Color"
+msgstr ""
+
+#: app/Settings/PricingTables.php:174
+msgid "Customize the styles of access plan prices"
+msgstr ""
+
+#: app/Settings/PricingTables.php:175
+msgid "Access Plan Prices"
+msgstr ""
+
+#: app/Settings/PricingTables.php:181
+msgid "Price Font Color"
+msgstr ""
+
+#: app/Settings/PricingTables.php:187
+msgid "Price Font Size"
+msgstr ""
+
+#: app/Settings/PricingTables.php:207
+msgid "Customize the styles of access plan stamps. These are the small highlights like \"MEMBER PRICING\" and \"TRIAL\""
+msgstr ""
+
+#: app/Settings/PricingTables.php:208
+msgid "Access Plan Stamps"
+msgstr ""
+
+#: app/Settings/PricingTables.php:214
+msgid "Stamp Background Color"
+msgstr ""
+
+#: app/Settings/PricingTables.php:220
+msgid "Stamp Font Color"
+msgstr ""
+
+#: app/Settings/PricingTables.php:237
+msgid "Customize the styles of access plan \"Enroll\" buttons"
+msgstr ""
+
+#: app/Settings/PricingTables.php:238
+msgid "Access Plan Buttons"
+msgstr ""
+
+#: app/Settings/PricingTables.php:245
+msgid "Button Color"
+msgstr ""
+
+#: app/Settings/PricingTables.php:252
+msgid "Button Font Color"
+msgstr ""
+
+#: app/Settings/PricingTables.php:259
+msgid "Button Border Color"
+msgstr ""
+
+#: app/Settings/PricingTables.php:266
+msgid "Button Hover Color"
+msgstr ""
+
+#: app/Settings/PricingTables.php:273
+msgid "Button Font Hover Color"
+msgstr ""
+
+#: app/Settings/PricingTables.php:280
+msgid "Button Border Hover Color"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:14
+msgid "LifterLMS Catalogs"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:37
+msgid "LifterLMS Catalog Settings"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:58
+msgid "Catalog Item Styling"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:66
+msgid "Columns"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:67
+msgid "Determine the number of tiles to display per row. Maximum is 6."
+msgstr ""
+
+#: app/Settings/ProductArchive.php:75
+msgid "Controls the background color of course and membership tiles"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:82
+msgid "Background Color Hover"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:83
+msgid "Controls the background color of course and membership tiles on hover"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:91
+msgid "Controls the border color of course and membership tiles"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:99
+msgid "Controls the width of the course and membership tile border"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:108
+msgid "Controls border radius of course and membership tiles"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:117
+msgid "Controls the top padding of course and membership tiles in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:126
+msgid "Controls the bottom padding of course and membership tiles in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:135
+msgid "Controls the right padding of course and membership tiles in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:144
+msgid "Controls the left padding of course and membership tiles in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:153
+msgid "Controls the top shadow of course and membership tiles in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:162
+msgid "Controls the bottom shadow of course and membership tiles in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:171
+msgid "Controls the right shadow of course and membership tiles in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:180
+msgid "Controls the left shadow of course and membership tiles in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:189
+msgid "Controls the color of shadow of course and membership tiles"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:196
+msgid "Text Align"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:197
+msgid "Controls the alignment of text in the course and membership tiles"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:206
+msgid "Image Bottom Margin"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:207
+msgid "Controls the bottom margin of the course and membership tile image"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:228
+msgid "Catalog Item Footer Styling"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:237
+msgid "Controls the top padding of course and membership tile footer in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:246
+msgid "Controls the bottom padding of course and membership tile footer in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:255
+msgid "Controls the right padding of course and membership tile footer in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:264
+msgid "Controls the left padding of course and membership tile footer in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:273
+msgid "Controls the top margin of course and membership tile footer in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:282
+msgid "Controls the bottom margin of course and membership tile footer in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:291
+msgid "Controls the right margin of course and membership tile footer in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:300
+msgid "Controls the left margin of course and membership tile footer in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:309
+msgid "Controls the width of the course and membership tile footer border"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:318
+msgid "Controls the border color of the course and membership tile footer border"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:336
+msgid "Catalog Item Title Styling"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:345
+msgid "Controls the font size of the course and membership tile title"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:354
+msgid "Controls the color of course and membership tile title"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:362
+msgid "Controls the color of course and membership tile title during hover events"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:370
+msgid "Controls the top margin of course and membership tile title in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:379
+msgid "Controls the bottom margin of course and membership tile title in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:388
+msgid "Controls the right margin of course and membership tile title in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:397
+msgid "Controls the left margin of course and membership tile title in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:417
+msgid "Catalog Item Meta Styling"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:426
+msgid "Controls the font size of the course and membership tile metas"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:435
+msgid "Controls the color of course and membership tile metas"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:443
+msgid "Controls the top padding of course and membership tile metas in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:452
+msgid "Controls the bottom padding of course and membership tile metas in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:461
+msgid "Controls the right padding of course and membership tile metas in pixels"
+msgstr ""
+
+#: app/Settings/ProductArchive.php:470
+msgid "Controls the left padding of course and membership tile metas in pixels"
+msgstr ""
+
+#: app/Settings/Typography.php:12
+msgid "Typography"
+msgstr ""
+
+#: app/Settings/Typography.php:33
+msgid "Typography Settings"
+msgstr ""
+
+#: app/Settings/Typography.php:40
+msgid "Font Family Options"
+msgstr ""
+
+#: app/Settings/Typography.php:48
+msgid "Body Font Family"
+msgstr ""
+
+#: app/Settings/Typography.php:58
+msgid "Headings Font Family"
+msgstr ""
+
+#: app/Settings/Typography.php:59
+msgid "Select a font family for headings (h1-h6)"
+msgstr ""
+
+#: app/Settings/Typography.php:68
+msgid "Main Menu Font Family"
+msgstr ""
+
+#: app/Settings/Typography.php:69
+msgid "Select a font family for the main menu (h1-h6)"
+msgstr ""
+
+#: app/Settings/Typography.php:78
+msgid "Font Size Options"
+msgstr ""
+
+#: app/Settings/Typography.php:86
+msgid "Site Title Font size"
+msgstr ""
+
+#: app/Settings/Typography.php:87
+msgid "In Pixels, default is 20"
+msgstr ""
+
+#: app/Settings/Typography.php:95
+msgid "Heading Font Size H1"
+msgstr ""
+
+#: app/Settings/Typography.php:96
+msgid "In Pixels, default is 34"
+msgstr ""
+
+#: app/Settings/Typography.php:103
+msgid "Heading Font Size H2"
+msgstr ""
+
+#: app/Settings/Typography.php:104
+msgid "In Pixels, default is 18"
+msgstr ""
+
+#: app/Settings/Typography.php:111
+msgid "Heading Font Size H3"
+msgstr ""
+
+#: app/Settings/Typography.php:112
+msgid "In Pixels, default is 16"
+msgstr ""
+
+#: app/Settings/Typography.php:119
+msgid "Heading Font Size H4"
+msgstr ""
+
+#: app/Settings/Typography.php:120
+msgid "In Pixels, default is 13"
+msgstr ""
+
+#: app/Settings/Typography.php:127
+msgid "Heading Font Size H5"
+msgstr ""
+
+#: app/Settings/Typography.php:128
+msgid "In Pixels, default is 12"
+msgstr ""
+
+#: app/Settings/Typography.php:136
+msgid "Header Font Size H6"
+msgstr ""
+
+#: app/Settings/Typography.php:137
+msgid "In Pixels, default is 11"
+msgstr ""
+
+#: app/Settings/Typography.php:145
+msgid "Paragraph Font Size"
+msgstr ""
+
+#: app/Settings/Typography.php:154
+msgid "List Font Size"
+msgstr ""
+
+#: app/Settings/Typography.php:163
+msgid "Font Colors"
+msgstr ""
+
+#: app/Settings/Typography.php:165
+msgid "Control colors of fonts on your website"
+msgstr ""
+
+#: app/Settings/Typography.php:171
+msgid "Main Text Font Color"
+msgstr ""
+
+#: app/Settings/Typography.php:172
+msgid "Controls the text color of most text on the website"
+msgstr ""
+
+#: app/Settings/Typography.php:179
+msgid "Heading 1 (H1) Font Color"
+msgstr ""
+
+#: app/Settings/Typography.php:180
+msgid "Controls the text color of H1 headings.."
+msgstr ""
+
+#: app/Settings/Typography.php:187
+msgid "Heading 2 (H2) Font Color"
+msgstr ""
+
+#: app/Settings/Typography.php:188
+msgid "Controls the text color of H2 headings.."
+msgstr ""
+
+#: app/Settings/Typography.php:195
+msgid "Heading 3 (H3) Font Color"
+msgstr ""
+
+#: app/Settings/Typography.php:196
+msgid "Controls the text color of H3 headings.."
+msgstr ""
+
+#: app/Settings/Typography.php:203
+msgid "Heading 4 (H4) Font Color"
+msgstr ""
+
+#: app/Settings/Typography.php:204
+msgid "Controls the text color of H4 headings.."
+msgstr ""
+
+#: app/Settings/Typography.php:211
+msgid "Heading 5 (H5) Font Color"
+msgstr ""
+
+#: app/Settings/Typography.php:212
+msgid "Controls the text color of H5 headings.."
+msgstr ""
+
+#: app/Settings/Typography.php:219
+msgid "Heading 6 (H6) Font Color"
+msgstr ""
+
+#: app/Settings/Typography.php:220
+msgid "Controls the text color of H6 headings.."
+msgstr ""
+
+#: app/Sidebars/Footer1.php:16
+msgid "Footer Widget #1"
+msgstr ""
+
+#: app/Sidebars/Footer1.php:18
+msgid "Appears on the left side of the footer."
+msgstr ""
+
+#: app/Sidebars/Footer2.php:16
+msgid "Footer Widget #2"
+msgstr ""
+
+#: app/Sidebars/Footer2.php:18
+msgid "Appears in the middle of the footer."
+msgstr ""
+
+#: app/Sidebars/Footer3.php:16
+msgid "Footer Widget #3"
+msgstr ""
+
+#: app/Sidebars/Footer3.php:18
+msgid "Appears on the right of the footer."
+msgstr ""
+
+#: app/Sidebars/PrimarySidebar.php:18
+msgid "Primary Sidebar"
+msgstr ""
+
+#: app/Sidebars/PrimarySidebar.php:20
+msgid "Appears on the right or left depending upon your settings."
+msgstr ""
+
+#: app/Sidebars/SecondarySidebar.php:17
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: app/Sidebars/SecondarySidebar.php:19
+msgid "Appears on the right when using a two sidebar layout."
+msgstr ""
+
+#: app/ThemeLayout/HeaderLayout.php:138
+msgid "None"
+msgstr ""
+
+#: app/ThemeLayout/HeaderLayout.php:151
+msgid "Site Default (%s)"
+msgstr ""
+
+#: resources/views/view.header.php:30
+msgid "Menu"
+msgstr ""
+
+#: resources/views/admin/view.settings.form.php:26
+msgid "Reset Options"
+msgstr ""
+
+#: resources/views/admin/view.settings.form.php:27
+msgid "Save Changes"
+msgstr ""
+
+#: resources/views/lifterlms/view.registrationform-ajax.php:11
+msgid "You are logged in as %s"
+msgstr ""
+
+#: vendor/gocodebox/launchpad-framework/src/SkyLab/Foundation/helpers.php:61
+msgid "Featured"
+msgstr ""
+
+#: vendor/gocodebox/launchpad-framework/src/SkyLab/Foundation/helpers.php:88
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr ""
+
+#: vendor/gocodebox/launchpad-framework/src/SkyLab/Foundation/helpers.php:97
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr ""
+
+#: vendor/gocodebox/launchpad-framework/src/SkyLab/Foundation/helpers.php:103, vendor/gocodebox/launchpad-framework/src/SkyLab/Foundation/helpers.php:111
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: vendor/gocodebox/launchpad-framework/src/SkyLab/Foundation/helpers.php:106
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr ""
+
+#: vendor/gocodebox/launchpad-framework/src/SkyLab/Foundation/helpers.php:114
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr ""
+
+#: vendor/gocodebox/launchpad-framework/src/SkyLab/Foundation/helpers.php:125
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr ""
+
+#. translators: %s: post title
+#: vendor/gocodebox/launchpad-framework/src/SkyLab/Foundation/helpers.php:135
+msgid "Leave a comment<span class=\"meta-label\"> on %s</span>"
+msgstr ""
+
+#: vendor/gocodebox/launchpad-framework/src/SkyLab/Foundation/helpers.php:191
+msgid "Comment navigation"
+msgstr ""
+
+#: vendor/gocodebox/launchpad-framework/src/SkyLab/Foundation/helpers.php:194
+msgid "Older Comments"
+msgstr ""
+
+#: vendor/gocodebox/launchpad-framework/src/SkyLab/Foundation/helpers.php:198
+msgid "Newer Comments"
+msgstr ""
+
+#: vendor/gocodebox/launchpad-framework/src/SkyLab/Settings/SettingGenerator.php:117
+msgid "Your settings have been saved."
+msgstr ""

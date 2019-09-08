@@ -1,0 +1,63 @@
+.course .new:before {
+	width: 200px;
+   height: 53px;
+   display: inline-block;
+   padding-left: 21px;
+   position: absolute;
+   top: 25px;
+   left: -5px;
+   color: #ffffff;
+   font-size: 25px;
+   line-height: 53px;
+   z-index: 2;
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: left center;
+}
+.accordion_block {
+	height: auto!important;
+	/* margin-top: 53px; */
+	padding: 36px 66px 36px 31px!important;
+	background-color: transparent!important;
+}
+.accordion_block .col:first-child {
+	width: 31.4%;
+	margin-right: 30px;
+}
+.accordion_block .col:last-child {
+	width: 66.4%;
+}
+.accordion_block span.header {
+	margin: 20px 0 26px;
+	display: inline-block;
+	color: #f88d02;
+	font-size: 43px;
+}
+.accordion_block span.duration {
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.accordion_block p {
+	margin-top: 33px;
+	margin-bottom: 0;
+	color: #f2f2f2;
+	font-size: 18px;
+}
+.course h2 {
+	margin: 82px 0 61px;
+	color: #ffffff;
+	font-size: 40px;
+}
+.course .lesson_row .lesson:first-child {
+	margin-left: 0;
+}
+.course .lesson_row .lesson:last-child {
+	margin-right: 0;
+}
+.course .lesson:not(.type-lesson) .duration::before {
+	position: relative;
+	top: 5px;
+    background: url(../img/время.svg) center center no-repeat;
+}

@@ -1,0 +1,85 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 25.08.2019 14:22
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.18
+WORDPRESS:	5.2.2
+PHP INFO:	7.2.15 | SAPI: apache2handler
+SERVER:		Apache/2.4.7 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+MEMORY STACK: 24MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 25082019_konfect_export_66c9b6d9cbdf73568672_20190825142157_database.sql
+SQL FILE SIZE: 1.27MB (1331339)
+SQL FILE TIME: 2019-08-25 14:22:24
+SQL RUNTIME: 0.42 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /home/c/cf24411/wordpress/public_html
+ARCHIVE FILE: 25082019_konfect_export_66c9b6d9cbdf73568672_20190825142157_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	159.44MB
+STATS:	Dirs 990 | Files 5,912
+SQL ADDED: 25082019_konfect_export_66c9b6d9cbdf73568672_20190825142157_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6902
+    [filename] => /home/c/cf24411/wordpress/public_html/wp-snapshots/tmp/25082019_konfect_export_66c9b6d9cbdf73568672_20190825142157_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 6901
+[PHP ERR][NOTICE] MSG:ob_flush(): failed to flush buffer. No buffer to flush [CODE:8|FILE:/home/c/cf24411/wordpress/public_html/wp-content/plugins/duplicator/classes/utilities/class.u.php|LINE:172]
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 93.76MB
+ARCHIVE RUNTIME: 10.82 sec.
+MEMORY STACK: 26MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip /home/c/cf24411/wordpress/public_html/wp-snapshots/tmp/25082019_konfect_export_66c9b6d9cbdf73568672_20190825142157_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 1.27MB
+INSTALLER FILE: 59.37KB
+ARCHIVE FILE: 95.1MB 
+EXPECTED FILE/DIRECTORY COUNT: 6,902
+ACTUAL FILE/DIRECTORY COUNT: 6,901
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 13.60 sec.
+PEAK PHP MEMORY USED: 28MB
+DONE PROCESSING => 25082019_konfect_export 25.08.2019 14:22
+

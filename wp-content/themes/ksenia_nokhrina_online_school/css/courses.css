@@ -1,0 +1,146 @@
+.courses {
+	padding: 11.4% 9.8% 6.7%;
+	height: 100%;
+}
+.courses h1, .course_sets h1 {
+	margin: 0 0 41px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #f88d02;
+   font-size: 50px;
+}
+.categories {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-bottom: 49px;
+}
+.categories button.cat_but {
+	padding: 10px 35px;
+	margin: 0 15px 19px;
+	border-radius: 100px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	border-radius: 100px;
+	border: 1px solid #ffffff;
+	background-color: rgba(255, 255, 255, 0.13);
+	color: #ffffff;
+	font-size: 22px;
+	transition: .2s;
+}
+.categories button.cat_but:hover {
+	background: transparent;
+}
+.categories button.active {
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	background-color: #f88d02;
+	transition: .2s;
+}
+.categories button.active:hover {
+	border: 1px solid #f88d02;
+}
+.course_lessons, .more_block_show {
+	display: -webkit-flex!important;
+	display: -moz-flex!important;
+	display: -ms-flex!important;
+	display: -o-flex!important;
+	display: flex!important;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.courses .lesson {
+	position: relative;
+	margin: 0 5px 47px;
+}
+.courses .lesson:before {
+	width: 200px;
+	height: 53px;
+	display: inline-block;
+	padding-left: 21px;
+	position: absolute;
+	top: 25px;
+	left: -5px;
+	color: #ffffff;
+	font-size: 25px;
+	line-height: 53px;
+	z-index: 2;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.courses .lesson.new:before {
+	content: 'Новинка';
+	background: url(../img/new_bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.courses .lesson.free:before {
+	content: 'Бесплатно';
+	background: url(../img/free_bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.courses .lesson.discount:before {
+	content: 'Скидка!';
+	background: url(../img/discount_bg.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.courses .more_block {
+	display: none;
+}
+.courses .show_more {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.courses .show_more button {
+	width: 118px;
+	height: 119px;
+	margin: 0 auto;
+	color: #ffffff;
+	background-color: transparent;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 118px;
+	font-size: 103px;
+	border: 3px solid #ffffff;
+	transition: background .2s;
+}
+.courses .show_more button:hover{
+	background: rgba(255, 255, 255, 0.13);
+}
+.courses .partners_slider {
+	width: 100%;
+	margin-top: 89px;
+	padding: 0;
+	position: relative;
+	border: 1px dashed #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.courses .partners_slider .slick-slide {
+	padding: 159px 0;
+	color: #ffffff;
+	font-size: 30px;
+	text-align: center;
+}
+.courses .partners_slider .slick-dots {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+}

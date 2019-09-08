@@ -1,0 +1,143 @@
+# Copyright (C) 2018 lifterlms-integration-ninja-forms
+# This file is distributed under the same license as the lifterlms-integration-ninja-forms package.
+msgid ""
+msgstr ""
+"Project-Id-Version: lifterlms-integration-ninja-forms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: LifterLMS <help@lifterlms.com>\n"
+"Last-Translator: Thomas Patrick Levy <thomas@lifterlms.com>\n"
+"Report-Msgid-Bugs-To: https://lifterlms.com/my-account/my-tickets\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/class-llms-integration-ninja-forms.php:44
+msgid "LifterLMS Ninja Forms"
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:45
+msgid "Seamlessly add Ninja Forms to LifterLMS lessons, add form entries to the LMS reporting, create a custom registration form, and more."
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:46
+msgid "You need to install the %1$sNinja Forms Core%2$s add-on to use this integration."
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:118
+msgid "LifterLMS Extra Info"
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:144
+msgid "Ninja Forms"
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:149, includes/class-llms-integration-ninja-forms.php:362
+msgid "Lesson Completion"
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:150
+msgid "When a Ninja Form is present on a lesson in this course, determine if the form must be submitted in order for the lesson to be marked as completed."
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:175
+msgid "Ninja Forms Entry"
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:202
+msgid "View Entry"
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:359
+msgid "When a Ninja Form is present on a lesson, determine if the form must be submitted in order for the lesson to be marked as complete. This can be overriden for individual courses and lessons."
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:370
+msgid "User Management Forms"
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:371
+msgid "Replace default LifterLMS forms with your own custom Ninja Forms powered by the Ninja Forms User Management add-on."
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:378
+msgid "You need to install the %1$sNinja Forms User Management%2$s add-on to unlock these features."
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:384, includes/class-llms-integration-ninja-forms.php:395
+msgid "Select a form..."
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:403
+msgid "This form will be used in place of the default LifterLMS login form. The form should include a \"Login User\" action."
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:405
+msgid "Login Form"
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:409
+msgid "This form will be used in place of the default LifterLMS registration form during enrollment and purchases for new users. The form should include an \"Register User\" action."
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:411
+msgid "Checkout Registration Form"
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:415
+msgid "This form will be used in place of the default LifterLMS registration form during enrollment and purchases for existing users. The form should include an \"Update Profile\" action."
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:417
+msgid "Checkout Update Form"
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:421
+msgid "This form will be used in place of the default LifterLMS open registation form. The form should include an \"Register User\" action."
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:423
+msgid "Open Registration Form"
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:427
+msgid "This form will be used in place of the default LifterLMS edit account form on the student dashboard. The form should include an \"Update Profile\" action."
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:429
+msgid "Account Update Form"
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:482
+msgid "Submission required"
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:483
+msgid "Submission optional"
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:486
+msgid "Form submission is optional"
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:487
+msgid "Form submission is required for lesson completion"
+msgstr ""
+
+#. translators: %s = translated current global setting
+#: includes/class-llms-integration-ninja-forms.php:498
+msgid "Use course setting (%s)"
+msgstr ""
+
+#. translators: %s = translated current global setting
+#: includes/class-llms-integration-ninja-forms.php:510
+msgid "Use global setting (%s)"
+msgstr ""
+
+#: includes/class-llms-integration-ninja-forms.php:727
+msgid "Related Lesson"
+msgstr ""
