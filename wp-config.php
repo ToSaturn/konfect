@@ -65,6 +65,9 @@ define('NONCE_SALT',       '(pa>Jl`1.n-}+(eaew-=<f7`>m<S?KI6N`*sjeXK N~3k&T^!X;w
  */
 $table_prefix  = 'wp_';
 
+
+define('FS_METHOD', 'direct');
+
 /**
  * For developers: WordPress debugging mode.
  *
@@ -77,7 +80,11 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', true );
+define( 'WP_DEBUG_DISPLAY', false );
+define( 'SCRIPT_DEBUG', true );
+
 
 /* That's all, stop editing! Happy blogging. */
 
