@@ -18,6 +18,8 @@
  * @package WordPress
  */
 
+
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', 'cf24411_0');
@@ -36,6 +38,10 @@ define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
+
+if( file_exists(ABSPATH . 'wp-config-dev.php')) {
+    require_once(ABSPATH . 'wp-config-dev.php');
+}
 
 /**#@+
  * Authentication Unique Keys and Salts.
