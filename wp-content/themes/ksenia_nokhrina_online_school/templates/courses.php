@@ -45,13 +45,13 @@ $posts = get_posts( array(
         echo '<div class="course_lessons">';
 
         foreach ($posts as $post ) {
-            $post_meta   = get_post_meta($post->ID);
+            $post_meta = get_post_meta($post->ID);
 
-            $is_discounted = get_post_meta($post->ID, 'discount', true);
-            $is_free = get_post_meta($post->ID, 'price', true);
-            $is_new    = abs(round((strtotime('now')-strtotime($post->post_date))/86400));
-            $duration = intval(get_post_meta($post->ID, 'duration', true));
-            $complexity = get_post_meta($post->ID, 'complexity', true);
+            $is_discounted  = get_post_meta($post->ID, 'discount', true);
+            $is_free        = get_post_meta($post->ID, 'price', true);
+            $is_new         = abs(round((strtotime('now')-strtotime($post->post_date))/86400));
+            $duration       = intval(get_post_meta($post->ID, 'duration', true));
+            $complexity     = get_post_meta($post->ID, 'complexity', true);
 
             $lesson_class_attr = '';
             if( intval($is_free) <= 0 ) {
@@ -76,7 +76,7 @@ $posts = get_posts( array(
                             case 'Начальная':   $complexity='';     break;
                             case 'Средняя':     $complexity='mid';  break;
                             case 'Повышенная':  $complexity='hard'; break;
-                            default:            $complexity='mid';  break;
+                            default:            $complexity='';     break;
                         }
 
 					    echo '<span class="duration">'.$duration.' ч.</span>';
