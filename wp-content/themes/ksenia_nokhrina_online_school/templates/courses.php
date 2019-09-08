@@ -16,12 +16,12 @@ $posts = get_posts( array(
     'suppress_filters' => true,
 ) );
 
-echo '<div style="background-color:white;color:#000;padding:50px 0px;">';
-echo '<pre>';
-echo 'Count of courses: '.count($posts).'<br />';
-var_dump( $posts );
-echo '</pre>';
-echo '</div>';
+//echo '<div style="background-color:white;color:#000;padding:50px 0px;">';
+//echo '<pre>';
+//echo 'Count of courses: '.count($posts).'<br />';
+//var_dump( $posts );
+//echo '</pre>';
+//echo '</div>';
 
 ?>
 
@@ -43,30 +43,23 @@ echo '</div>';
 
     <?php
         echo '<div class="course_lessons">';
+
         foreach ($posts as $post ) {
-            $post_meta = get_post_meta($post->ID);
-            $discount  = get_post_meta($post->ID, 'discount', true);
-            $price = get_post_meta($post->ID, 'price', true);
-            $created = date_diff( strtotime("now")) $post_meta['post_date'];
-            var_dump($price);
+            $post_meta   = get_post_meta($post->ID);
 
-            $current_date = date_create(date('d-m-Y', strtotime("now")));
-            $created_date = date_create(date('d-m-Y', strtotime($post_meta['post_date'])));
-            $announce = date_diff($created_date, $current_date);
-            echo 'days: '.$announce->format("%a");
-            //var_dump($post);
-
-            //if( isset($post_meta['discount']) ) echo $post_meta['discount'][0];
+            $is_discounted = get_post_meta($post->ID, 'discount', true);
+            $is_free = get_post_meta($post->ID, 'price', true);
+            $is_new    = abs(round((strtotime('now')-strtotime($post->post_date))/86400));
+            $duration = intval(get_post_meta($post->ID, 'duration', true));
+            $complexity = get_post_meta($post->ID, 'complexity', true);
 
             $lesson_class_attr = '';
-            if( intval($price) <= 0 ) {
+            if( intval($is_free) <= 0 ) {
                 $lesson_class_attr = 'free';
-
-            } else if( intval($discount) > 0 ) {
+            } else if( intval($is_discounted) > 0 ) {
                 $lesson_class_attr = 'discount';
-
-            } else if( isset($post_meta['post_modified']) ) {
-
+            } else if( intval($is_new) > 0 && intval($is_new) < 4 ) {
+                $lesson_class_attr = 'new';
             }
 
 		    echo '<div class="lesson '.$lesson_class_attr.'">';
@@ -79,23 +72,18 @@ echo '</div>';
 					    echo '<img src="'.$image['url'].'" alt="'.$image['alt'].'" />';
 				    }
 				    echo '<div class="row">';
-				        $duration = '0';
-				        $complexity = '';
-
-				        if( isset($post_meta['duration']) ) $duration = intval($post_meta['duration']);
-				        if( isset($post_meta['complexity']) ) {
-				            switch( $post_meta['complexity']) {
-                                case 'Начальная':   $complexity='';     break;
-                                case 'Средняя':     $complexity='mid';  break;
-                                case 'Повышенная':  $complexity='hard'; break;
-                                default:            $complexity='mid';  break;
-                            }
+				        switch($complexity) {
+                            case 'Начальная':   $complexity='';     break;
+                            case 'Средняя':     $complexity='mid';  break;
+                            case 'Повышенная':  $complexity='hard'; break;
+                            default:            $complexity='mid';  break;
                         }
+
 					    echo '<span class="duration">'.$duration.' ч.</span>';
 					    echo '<div class="complexity" data-level="'.$complexity.'"></div>';
 				    echo '</div>';
 				    echo '<p>'.get_the_title($post).'</p>';
-				    echo '<a href="#" class="more">Узнать подробнее</a>';
+				    echo '<a href="'.get_post_permalink($post->ID).'" class="more">Узнать подробнее</a>';
 			    echo '</div>';
     		echo '</div>';
         }
