@@ -6,3 +6,5 @@ acces.log
 .idea/
 
 wp-content/themes/ksenia_nokhrina_online_school/test.php
+
+wp-config-dev.php
