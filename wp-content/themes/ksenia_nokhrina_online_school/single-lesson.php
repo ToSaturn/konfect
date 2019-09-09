@@ -10,13 +10,18 @@ $lesson_info = array(
     'category'                  => get_post_meta($post->ID, 'category', true),
     'discount'                  => intval(get_post_meta($post->ID, 'discount', true)),
     'complexity'                => get_post_meta($post->ID, 'complexity', true),
+    'complexity_attr'           => 'mid',
     'media_content_name'        => get_post_meta($post->ID, 'media_content_name', true),
     'media_content_description' => get_post_meta($post->ID, 'media_content_description', true),
     'parent_course'             => intval(get_post_meta($post->ID, '_llms_parent_course', true)),
     'lessons'                   => null,
 );
 
-//var_dump($lesson_info);
+switch(strtolower($lesson_info['complexity'])){
+    case 'средняя':     $lesson_info['complexity_attr']='mid';  break;
+    case 'Повышенная':  $lesson_info['complexity_attr']='hard'; break;
+    default:            $lesson_info['complexity_attr']='';     break;
+}
 
 $lesson_info['lessons'] = new WP_Query();
 $lesson_info['lessons']->query(array(
@@ -39,7 +44,7 @@ $lesson_info['lessons'] = intval($lesson_info['lessons']->post_count);
         <h1><?php echo $post->post_title; ?></h1>
         <div class="row span_row">
             <span class="duration"><?php echo $lesson_info['duration']; ?> ч.</span>
-            <span class="difficult" data-level="mid"><?php echo $lesson_info['complexity']; ?></span>
+            <span class="difficult" data-level="mid"><?php echo $lesson_info['complexity']; ?> сложность</span>
             <span class="price"><?php echo $lesson_info['price']; ?> РУБЛЕЙ</span>
             <span class="num_of_lessons"><?php echo $lesson_info['lessons']; ?> УРОКОВ</span>
         </div>
