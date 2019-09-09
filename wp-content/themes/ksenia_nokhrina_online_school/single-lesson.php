@@ -4,31 +4,44 @@ Template Name: Курс
 */
 get_header();
 
-    //echo 'post id: '.$post->ID.'<br/>';
-    // get all of data we need via postmeta
-    $duration = intval(get_post_meta($post->ID, 'duration', true));
+$lesson_info = array(
+    'duration'                  => intval(get_post_meta($post->ID, 'duration', true)),
+    'price'                     => intval(get_post_meta($post->ID, 'price', true)),
+    'category'                  => get_post_meta($post->ID, 'category', true),
+    'discount'                  => intval(get_post_meta($post->ID, 'discount', true)),
+    'complexity'                => get_post_meta($post->ID, 'complexity', true),
+    'media_content_name'        => get_post_meta($post->ID, 'media_content_name', true),
+    'media_content_description' => get_post_meta($post->ID, 'media_content_description', true),
+    'parent_course'             => intval(get_post_meta($post->ID, '_llms_parent_course', true)),
+    'lessons'                   => null,
+);
 
-    $countoflessons  = 0;
-    $price           = intval(get_post_meta($post->ID, 'price', true));
-    $category        = get_post_meta($post->ID, 'category', true);
-    $discount        = intval(get_post_meta($post->ID, 'discount', true));
-    $complexity      = get_post_meta($post->ID, 'complexity', true);
-    $complexity_attr = '';
+//var_dump($lesson_info);
 
-    $lesson_name = get_post_meta($post->ID, 'media_content_name', true);
-    $lesson_description = get_post_meta($post->ID, 'media_content_description', true);
+$lesson_info['lessons'] = new WP_Query();
+$lesson_info['lessons']->query(array(
+    'post_type'  =>'lesson',
+    'post_status'=>'published',
+    'meta_query' => array(
+        array(
+            'key'     => '_llms_parent_course',
+            'value'   => $lesson_info['parent_course'],
+            'compare' => '=',
+        )
+    )
+));
 
-
+$lesson_info['lessons'] = intval($lesson_info['lessons']->post_count);
 ?>
     <main class="course">
         <div class="favorites"></div>
-        <span class="cat"><?php echo $category; ?></span>
+        <span class="cat"><?php echo $lesson_info['category']; ?></span>
         <h1><?php echo $post->post_title; ?></h1>
         <div class="row span_row">
-            <span class="duration"><?php echo $duration; ?> ч.</span>
-            <span class="difficult" data-level="mid"><?php echo $complexity; ?></span>
-            <span class="price"><?php echo $price; ?> РУБЛЕЙ</span>
-            <span class="num_of_lessons">14 УРОКОВ</span>
+            <span class="duration"><?php echo $lesson_info['duration']; ?> ч.</span>
+            <span class="difficult" data-level="mid"><?php echo $lesson_info['complexity']; ?></span>
+            <span class="price"><?php echo $lesson_info['price']; ?> РУБЛЕЙ</span>
+            <span class="num_of_lessons"><?php echo $lesson_info['lessons']; ?> УРОКОВ</span>
         </div>
 
         <?php do_shortcode('[embed width="123" height="456"]http://www.youtube.com/watch?v=dQw4w9WgXcQ[/embed]'); ?>
@@ -98,11 +111,11 @@ get_header();
                         <button class="accordion_but">КУПИТЬ/СМОТРЕТЬ</button>
                     </div>
                     <div class="col">
-                        <span class="header"><?php echo $lesson_name; ?></span>
+                        <span class="header"><?php echo $lesson_info['media_content_name']; ?></span>
                         <div class="row">
-                            <span class="duration"><?php echo $duration; ?> ч.</span>
+                            <span class="duration"><?php echo $lesson_info['duration']; ?> ч.</span>
                         </div>
-                        <p><?php echo $lesson_description; ?></p>
+                        <p><?php echo $lesson_info['media_content_description']; ?></p>
                     </div>
                 </div>
             </div>
