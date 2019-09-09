@@ -12,7 +12,7 @@ $posts = get_posts( array(
     'order'       => 'DESC',
     'include'     => array(),
     'exclude'     => array(),
-    'post_type'   => 'course',
+    'post_type'   => 'lesson',
     'suppress_filters' => true,
 ) );
 
