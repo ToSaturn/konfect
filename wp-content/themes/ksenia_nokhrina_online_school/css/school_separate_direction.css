@@ -82,17 +82,17 @@ span.difficult:before {
 	height: 35px;
 	display: inline-block;
 	margin-right: 26px;
-	background: url(../img/сложность1.png) no-repeat center;
+	background: url(../img/complexity_easy.png.png) no-repeat center;
 	-webkit-background-size: contain;
 	background-size: contain;
 }
-span.difficult[data-level="Средняя"]:before {
-	background: url(../img/сложность2.png) no-repeat center;
+span.difficult[data-level="mid"]:before {
+	background: url(../img/complexity_middle.png) no-repeat center;
 	-webkit-background-size: contain;
 	background-size: contain;
 }
-span.difficult[data-level="Повышенная"]:before {
-	background: url(../img/сложность3.png) no-repeat center;
+span.difficult[data-level="hard"]:before {
+	background: url(../img/complexity_hard.png) no-repeat center;
 	-webkit-background-size: contain;
 	background-size: contain;
 }
