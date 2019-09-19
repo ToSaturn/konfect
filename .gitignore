@@ -8,3 +8,4 @@ acces.log
 wp-config-dev.php
 
 .htaccess
+wp-config.php
