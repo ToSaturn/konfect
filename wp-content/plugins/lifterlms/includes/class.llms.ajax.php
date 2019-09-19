@@ -333,7 +333,7 @@ class LLMS_AJAX {
 	public function get_all_posts() {
 		llms_deprecated_function( 'LLMS_AJAX::get_all_posts()', '3.13.0' );
 		$post_type = llms_filter_input( INPUT_POST, 'post_type', FILTER_SANITIZE_STRING );
-		$args = array(
+		$args      = array(
 			'post_type'   => $post_type,
 			'nopaging'    => true,
 			'post_status' => 'publish',
@@ -355,7 +355,7 @@ class LLMS_AJAX {
 
 		llms_deprecated_function( 'LLMS_AJAX::get_associated_lessons()', '3.13.0' );
 
-		$parent_section = llms_filter_input( INPUT_POST, 'post_type', FILTER_SANITIZE_NUMBER_INT );
+		$parent_section = llms_filter_input( INPUT_POST, 'section_id', FILTER_SANITIZE_NUMBER_INT );
 
 		$args      = array(
 			'posts_per_page' => -1,
@@ -521,7 +521,7 @@ class LLMS_AJAX {
 			LIMIT 30";
 
 		// phpcs:disable WordPress.DB.PreparedSQL.NotPrepared
-		$all_users   = $wpdb->get_results( $select_user );
+		$all_users = $wpdb->get_results( $select_user );
 		// phpcs:enable WordPress.DB.PreparedSQL.NotPrepared
 
 		$users_arr = array();
@@ -568,7 +568,7 @@ class LLMS_AJAX {
 			LIMIT 1000";
 
 		// phpcs:disable WordPress.DB.PreparedSQL.NotPrepared
-		$all_users   = $wpdb->get_results( $select_user );
+		$all_users = $wpdb->get_results( $select_user );
 		// phpcs:enable WordPress.DB.PreparedSQL.NotPrepared
 
 		$users_arr = array();

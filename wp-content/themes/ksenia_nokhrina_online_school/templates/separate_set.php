@@ -17,10 +17,16 @@ get_header();
 	</div>
 
 	<div class="separate_set_slider">
-
 		<div>
 			<?php 
-			$image = get_field('изображение_одного_из_наборов');
+				$image = get_field('изображения_набора_1');
+				if( !empty($image) ): ?>
+					<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+			<?php endif; ?>
+		</div>
+		<div>
+			<?php 
+			$image = get_field('изображения_набора_2');
 			if( !empty($image) ): ?>
 				<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 			<?php endif; ?>
@@ -28,7 +34,7 @@ get_header();
 
 		<div>
 			<?php 
-			$image = get_field('изображение_одного_из_наборов');
+			$image = get_field('изображения_набора_3');
 			if( !empty($image) ): ?>
 				<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 			<?php endif; ?>
@@ -36,7 +42,7 @@ get_header();
 
 		<div>
 			<?php 
-			$image = get_field('изображение_одного_из_наборов');
+			$image = get_field('изображения_набора_4');
 			if( !empty($image) ): ?>
 				<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 			<?php endif; ?>
@@ -44,7 +50,7 @@ get_header();
 
 		<div>
 			<?php 
-			$image = get_field('изображение_одного_из_наборов');
+			$image = get_field('изображения_набора_5');
 			if( !empty($image) ): ?>
 				<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 			<?php endif; ?>
@@ -52,7 +58,7 @@ get_header();
 
 		<div class="discount">
 			<?php 
-			$image = get_field('изображение_одного_из_наборов');
+			$image = get_field('изображения_набора_6');
 			if( !empty($image) ): ?>
 				<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 			<?php endif; ?>
@@ -60,16 +66,18 @@ get_header();
 
 		<div>
 			<?php 
-			$image = get_field('изображение_одного_из_наборов');
+			$image = get_field('изображения_набора_7');
 			if( !empty($image) ): ?>
 				<img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 			<?php endif; ?>
 		</div>
 	</div><!-- /.separate_set_slider -->
 
+
 	<p class="progress">КУРС ПРОЙДЕН НА <span>70%</span></p>
 	<div class="progressbar"></div>
 
+	
 	<h2>Содержание курса</h2>
 	<div class="viewed">
 		<div class="separate_set_accordion accordion">
@@ -82,15 +90,18 @@ get_header();
 			<div class="collapse">
 				<div class="row">
 					<div class="col">
-						<div class="preview">Превью урока</div>
-						<button class="accordion_but">СМОТРЕТЬ</button>
+						<div class="preview">qwe</div>
+						<button href="#" class="accordion_but">СМОТРЕТЬ</button>
 					</div>
+
 					<div class="col">
-						<button class="close">01 Название урока</button>
+						<button class="close">test1</button>
+
 						<div class="row">
 							<span class="duration">50 МИНУТ</span>
 						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
+						<p>qwe</p>
+
 					</div>
 				</div>
 			</div>

@@ -109,7 +109,9 @@
 		<?php if ( 'lesson' === get_post_type() )  {
 			
 //			if (lesson bought == true) {
-				the_content();
+	//		get_template_part( 'template-parts/content-lesson-preview');
+				do_action( 'custom_lifterlms_single_lesson_after_summary' );
+	//			the_content();
 //			} else {
 //				get_template_part( 'template-parts/content-lesson-preview');
 //				do_action( 'custom_lifterlms_single_lesson_after_summary' );

@@ -265,6 +265,22 @@ function get_acf_img_default_value($field_name)
     return null;
 }
 
+function gm_get_progress_bar_html($html, $percentage) {
+
+	
+	$test = '<p class="progress">КУРС ПРОЙДЕН НА <span>'.$percentage.'</span></p>
+		<div class="llms-progress">
+		<div class="llms-progress-bar">
+			<div class="progress-bar-complete progressbar" data-progress="' . $percentage . '"  style="width:' . $percentage . '"></div>
+		</div></div>';
+
+		
+	return $test;
+
+}
+
+
+
 add_filter('acf/load_value/name=копирайт', load_acf_text_value, 10, 3);
 add_filter('acf/load_value/name=логотип_в_подвале', load_acf_img_value, 10, 3);
 add_filter('acf/load_value/name=фото_инстаграмм_1', load_acf_img_value, 10, 3);
@@ -273,7 +289,7 @@ add_filter('acf/load_value/name=фото_инстаграмм_3', load_acf_img_v
 add_filter('acf/load_value/name=фото_инстаграмм_4', load_acf_img_value, 10, 3);
 add_filter('acf/load_value/name=фото_инстаграмм_5', load_acf_img_value, 10, 3);
 add_filter('acf/load_value/name=фото_инстаграмм_6', load_acf_img_value, 10, 3);
-
+add_filter('llms_get_progress_bar_html', 'gm_get_progress_bar_html', 10, 2);
 
 
 
@@ -294,11 +310,10 @@ add_filter('acf/load_value/name=фото_инстаграмм_6', load_acf_img_v
  
  
 //add_action( 'lifterlms_single_lesson_before_summary', 'lifterlms_template_single_parent_course', 10 );
-add_action( 'custom_lifterlms_single_lesson_before_summary', 'lifterlms_template_single_lesson_video',  20 );
-add_action( 'custom_lifterlms_single_lesson_before_summary', 'lifterlms_template_single_lesson_audio',  20 );
+// add_action( 'custom_lifterlms_single_lesson_before_summary', 'lifterlms_template_single_lesson_video',  20 );
+// add_action( 'custom_lifterlms_single_lesson_before_summary', 'lifterlms_template_single_lesson_audio',  20 );
 
-add_action( 'custom_lifterlms_single_lesson_after_summary', 'related_lessons',  10 );
-add_action( 'custom_lifterlms_single_lesson_after_summary', 'pre_footer_banner',  20 );
-
+ add_action( 'custom_lifterlms_single_lesson_after_summary', 'related_lessons',  10 );
+ add_action( 'custom_lifterlms_single_lesson_after_summary', 'pre_footer_banner',  20 );
 
 

@@ -11,7 +11,7 @@ get_header();
 		<button class="cat_but active">АКТИВНАЯ КАТЕГОРИЯ</button>
 		<button class="cat_but">ДРУГАЯ КАТЕГОРИЯ</button>
 		<button class="cat_but">КАТЕГОРИЯ</button>
-		<button class="cat_but">КАТЕГОРИЯ 23</button>
+		<button class="cat_but">КАТЕГОРИЯ 2</button>
 	</div><!-- /.categories -->
 	<div class="course_lessons">
 

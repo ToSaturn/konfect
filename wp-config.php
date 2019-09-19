@@ -18,32 +18,24 @@
  * @package WordPress
  */
 
-
-
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define('DB_NAME', 'cf24411_0');
 
+/** MySQL database username */
+define('DB_USER', 'cf24411_0');
+
+/** MySQL database password */
+define('DB_PASSWORD', '9QJQca8I');
+
+/** MySQL hostname */
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-
-if( file_exists(ABSPATH . 'wp-config-dev.php')) {
-    require_once(ABSPATH . 'wp-config-dev.php');
-} else {
-    define('DB_NAME', 'cf24411_0');
-
-    /** MySQL database username */
-    define('DB_USER', 'cf24411_0');
-
-    /** MySQL database password */
-    define('DB_PASSWORD', '9QJQca8I');
-
-    /** MySQL hostname */
-    define('DB_HOST', 'localhost');
-}
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -73,9 +65,6 @@ define('NONCE_SALT',       '(pa>Jl`1.n-}+(eaew-=<f7`>m<S?KI6N`*sjeXK N~3k&T^!X;w
  */
 $table_prefix  = 'wp_';
 
-
-define('FS_METHOD', 'direct');
-
 /**
  * For developers: WordPress debugging mode.
  *
@@ -88,11 +77,7 @@ define('FS_METHOD', 'direct');
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define( 'WP_DEBUG', true );
-define( 'WP_DEBUG_LOG', true );
-define( 'WP_DEBUG_DISPLAY', false );
-define( 'SCRIPT_DEBUG', true );
-
+define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
 

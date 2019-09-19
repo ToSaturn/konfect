@@ -1568,18 +1568,134 @@ footer .copyright p {
 }
 
 
-.llms-video-wrapper .center-video {
+.accordion {
 	position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 25px;
-    height: 0;
 }
-
-.llms-video-wrapper .center-video iframe {
+.accordion .col:first-child {
+	width: 30.7%;
+	margin-right: 30px;
+}
+.accordion .row .col:last-child {
+	width: 64.8%;
+}
+.accordion .preview, .accordion_block .preview {
+	width: 100%;
+	height: 276px;
+	margin-bottom: 38px;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #ffffff;
+	font-size: 22px;
+	text-align: center;
+	line-height: 276px;
+	overflow-y: hidden;
+}
+.accordion .accordion_but, .accordion_block .accordion_but {
+	padding: 14px 0;
+	height: 57px;
+	color: #ffffff !important;
+	font-size: 23px;
+	border-radius: 52px;
+	border: 1px solid #f88d02;
+	background-color: #f88d02;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	display: block;
+	text-decoration: none !important;
+}
+.accordion .accordion_but:hover, .accordion_block .accordion_but:hover {
+	background-color: transparent;
+}
+.accordion .collapse {
+	margin-top: 0;
+}
+.viewed {
+	position: relative;
+}
+.accordion .collapse button:not(.accordion_but) {
+	margin: 21px 0 36px;
+	text-align: left;
+	font-size: 35px;
+	color: #f88d02;
+	border: none;
+	background-color: transparent;
+}
+.separate_set_accordion span.close {
+   position: absolute;
+   display: none;
+   right: 30px;
+   top: -10px;
+   color: #ffffff;
+   font-size: 103px;
+   font-weight: 300;
+   transform: rotate(45deg);
+   cursor: pointer;
+}
+.viewed_left {
+	width: 260px;
+	height: 53px;
+	padding-left: 20px;
+	line-height: 53px;
+	display: none;
 	position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+	top: 57px;
+	left: -16px;
+	color: #ffffff;
+	font-size: 25px;
+	background: url(http://konfect.ru/wp-content/themes/ksenia_nokhrina_online_school/img/viewed_left.png) no-repeat;
+	background-position: left top;
+	z-index: 2;
 }
-
+.viewed_right {
+	width: 260px;
+	height: 53px;
+	padding-right: 20px;
+	line-height: 53px;
+	position: absolute;
+	top: 33px;
+	right: -16px;
+	color: #ffffff;
+	text-align: right;
+	font-size: 25px;
+	background: url(http://konfect.ru/wp-content/themes/ksenia_nokhrina_online_school/img/viewed_right.png) no-repeat;
+	background-position: top right;
+	z-index: 2;
+}
+.similar_courses {
+	margin-bottom: 103px;
+}
+.similar_courses h3 {
+	margin: 112px 0 55px;
+	color: #ffffff;
+	font-size: 40px;
+}
+.similar_courses_block {
+	width: 25%;
+	height: 579px;
+	margin: 0 3px;
+	border: 1px dashed #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.similar_courses_block:first-child {
+	margin-left: 0;
+}
+.similar_courses_block:last-child {
+	margin-right: 0;
+}
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    width: 100% !important;
+    HEIGHT: 100% !important;
+}
+.accordion .accordion_header {
+    cursor: pointer;
+    text-align: left;
+}
+p.progress {
+margin: 56px 0 20px;
+color: #fff;
+font-size: 22px;
+}
+p.progress span {
+	color: #f88d02;
+font-weight: 700;
+}

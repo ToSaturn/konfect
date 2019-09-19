@@ -4,12 +4,12 @@ Donate link: https://lifterlms.com
 Tags: learning management system, LMS, membership, elearning, online courses, quizzes, sell courses, badges, gamification, learning, Lifter, LifterLMS
 Requires at least: 4.8
 Requires PHP: 7.2
-Tested up to: 5.2.2
-Stable tag: 3.35.1
+Tested up to: 5.2.3
+Stable tag: 3.36.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-LifterLMS, the #1 WordPress LMS solution, makes it easy to create, sell, and protect engaging online courses.
+LifterLMS is a powerful WordPress learning management system plugin that makes it easy to create, sell, and protect engaging online courses and training based membership websites.
 
 
 == Description ==
@@ -25,7 +25,7 @@ https://www.youtube.com/watch?v=jDVvkipF_pg
 
 > **At it's core LifterLMS exists to lift up others through education.**
 
-You do NOT need a seperate ecommerce or membership plugin made by a different company to use LifterLMS! All that and more is included with LifterLMS so you can **avoid the "Software Frankenstein" problem** (too many plugins made by different companies that don't work well together have different levels of support).
+You do NOT need a separate ecommerce or membership plugin made by a different company to use LifterLMS! All that and more is included with LifterLMS so you can **avoid the "Software Frankenstein" problem** (too many plugins made by different companies that don't work well together have different levels of support).
 
 LifterLMS is also known for having a thriving well supported user community through, active listening, social engagement and robust documentation.
 
@@ -408,7 +408,9 @@ You can return to the setup wizard at any time by following [these steps](https:
 == Frequently Asked Questions ==
 
 #### Where do I buy LifterLMS add-ons or bundles?
+
 You can explore the individual add-ons [here](https://lifterlms.com/store/?utm_source=LifterLMS%20Plugin&utm_medium=README&utm_campaign=Readme%20to%20Sale) or save BIG with a [bundle](https://lifterlms.com/product-category/bundles/?utm_source=LifterLMS%20Plugin&utm_medium=README&utm_campaign=Readme%20to%20Sale)
+
 
 #### Are there any troubleshooting steps you'd suggest I try that might resolve my issue before I post a new thread?
 
@@ -451,6 +453,21 @@ We care about your feature ideas and what you have to say. You can [request a fe
 Be sure you’ve taken the free tutorial training video course: [How to Create an Online Course with LifterLMS](http://demo.lifterlms.com/course/how-to-build-a-learning-management-system-with-lifterlms/?utm_source=LifterLMS%20Plugin&utm_medium=README&utm_campaign=Readme%20to%20Sale). We also encourage you to get to know us by signing up for a $1 temporary _30 Day_ website on our servers which comes with the core LifterLMS plugin all our add-ons intalled. This demo allows you to test drive all the add-ons before you invest. Check it out here: **[Try LifterLMS for $1](https://lifterlms.com/product/try/?utm_source=LifterLMS%20Plugin&utm_medium=README&utm_campaign=Readme%20to%20Sale)**.
 
 
+#### I'm interested in contributing to LifterLMS, how can I start?
+
+LifterLMS is an open-source project. We manage our team, developers, issues, and code on [GitHub](https://github.com/gocodebox/lifterlms/).
+
+We welcome contributions of all kinds, anyone can contribute even if you don't write code! Check out our [Contributor's Guidelines](https://github.com/gocodebox/lifterlms/blob/master/.github/CONTRIBUTING.md) to get started.
+
+
+#### I found a security vulnerability or issue, how can I report it to the team?
+
+The LifterLMS team takes security issues and vulnerabilities very seriously. We appreciate your efforts to responsibly disclose your findings, and will make every effort to acknowledge your contributions.
+
+Please contact team@lifterlms.com to report a security vulnerability.
+
+You can review our full security policy at [https://lifterlms.com/security-policy](https://lifterlms.com/security-policy).
+
 
 == Screenshots ==
 
@@ -481,6 +498,41 @@ Be sure you’ve taken the free tutorial training video course: [How to Create a
 
 
 == Changelog ==
+
+
+= v3.36.0 - 2019-09-16 =
+------------------------
+
+##### User Interaction event and session Tracking
+
++ Added user interaction tracking for the following events:
+
+  + User sign in and out.
+  + Page load and exit (for LMS content)
+  + Page focus and blur (for LMS content)
+  + And more to come
+
++ Interaction events are grouped into sessions automatically. A session is "closed" after 30 minutes of inactivity or a log-out event.
++ Added "Last Seen" student reporting column which reports the last recorded activity for the student.
+
+##### Enhancements
+
++ Automatically hydrate when calling LLMS_Abstract_Database_Store::to_array().
++ Added CSS to make course and lesson video embeds automatically responsive.
+
+##### Bug Fixes
+
++ Correctly pass the `$remember` variable when using `llms_set_person_auth_cookie()`.
++ Fixed undefined index error when retrieving an unset value from an unsaved database model.
++ Fix issue causing quotes to be encoded in shortcodes used in course and membership restriction message settings fields.
++ Fix issue preventing manual updates of order dates (next payment, trial expiration, and access expiration) from being saved properly.
+
+
+= v3.35.2 - 2019-09-06 =
+------------------------
+
++ When sanitizing settings, don't strip tags on editor and textarea fields that allow HTML.
++ Added JS filter `llms_lesson_rerender_change_events` to lesson editor view re-render change events.
 
 
 = v3.35.1 - 2019-09-04 =
@@ -538,8 +590,6 @@ The following unused classes have been marked as deprecated and will be removed 
 +  [taxonomy-course_track.php](https://github.com/gocodebox/lifterlms/blob/master/templates/taxonomy-course_track.php)
 +  [taxonomy-membership_cat.php](https://github.com/gocodebox/lifterlms/blob/master/templates/taxonomy-membership_cat.php)
 +  [taxonomy-membership_tag.php](https://github.com/gocodebox/lifterlms/blob/master/templates/taxonomy-membership_tag.php)
-
-
 
 
 = v3.34.5 - 2019-08-29 =
@@ -685,31 +735,5 @@ The following unused classes have been marked as deprecated and will be removed 
 + LLMS_Course::is_user_enrolled() use llms_is_user_enrolled() instead
 + LLMS_Course::get_student_progress() use LLMS_Student::get_progress() instead
 + LLMS_Course::get_membership_link()
-
-
-= v3.33.2 - 2019-06-26 =
-------------------------
-
-+ It is now possible to send test copies of the "Student Welcome" email to yourself.
-+ Improved information logged when an error is encountered during an email send.
-+ Add backwards compatibility for legacy add-on integrations priority loading method.
-+ Fixed undefined index notice when viewing log files on the admin status screen.
-
-
-= v3.33.1 - 2019-06-25 =
-------------------------
-
-##### Updates
-
-+ Added method to retrieve the load priority of integrations.
-+ The capabilities used to determine if uses can clone and export courses now check `edit_course` instead of `edit_post`.
-
-##### Bug Fixes
-
-+ Fixed an issue which would cause the "Net Sales" line to sometimes display as a bar on the sales revenue reporting chart.
-+ Fixed an issue causing a PHP notice to be logged when viewing the sales reporting screen.
-+ Fixed an issue causing backslashes to be added before quotation marks in access plan descriptions.
-+ Integration classes are now loaded in the order defined by the integration class.
-+ Fixed an issue causing a PHP error when viewing the admin logs screen when no logs exist.
 
 [View the full changelog](https://github.com/gocodebox/lifterlms/blob/master/CHANGELOG.md#lifterlms-changelog)
